@@ -1,11 +1,12 @@
 import React from "react";
-import fixture from "../fixture.json";
+import fixture from "../data.json";
+import {HashLink} from 'react-router-hash-link';
 
-const Projects= ({logement})=>{
-    const {title, logo, cover } = fixture ;
+const Projects= ({project})=> {
+    const {title, cover } = fixture ;
 return(
     <article className="card-bloc-item">
-        <a className="card" to={``}>
+        <HashLink className="card" to={``}>
           <div className="card-title">
             <h2>{title}</h2>
           </div>
@@ -15,7 +16,7 @@ return(
             alt={title}
           /> 
           
-         </a> 
+         </HashLink > 
       </article>
 )
 

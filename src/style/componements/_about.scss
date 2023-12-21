@@ -1,0 +1,53 @@
+.propos {
+  .nom {
+    display: flex;
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  .contact {
+    background-color: black;
+    color: white;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+  }
+  .git {
+    background-color: white;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.block2 {
+  margin-top: 50px;
+  background-color: #ececec;
+  border-color: black;
+  border: solid;
+  .title1 {
+    margin-bottom: 15px;
+  }
+  .texte1 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}

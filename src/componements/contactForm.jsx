@@ -15,21 +15,21 @@ return(
     <h2 className="contact">CONTACT</h2>
     <form onSubmit={handleSubmit}>
       <label>
-        Name:
+        Nom :
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
       </label>
       <br />
       <label>
-        Email:
+        Email :
         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
       </label>
       <br />
       <label>
-        Message:
+        Message :
         <textarea value={message} onChange={(e) => setMessage(e.target.value)} />
       </label>
       <br />
-      <button type="submit">Submit</button>
+      <button type="submit">Envoyer</button>
     </form>
    
     </section>
