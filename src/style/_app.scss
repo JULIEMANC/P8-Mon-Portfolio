@@ -23,3 +23,11 @@ $bs : 1260px;
 body{
 font-family:'Montserrat',sans-serif;
 }
+
+section {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 320px;
+    margin: 0 auto;
+}

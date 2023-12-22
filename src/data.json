@@ -2,6 +2,16 @@
     "about": {
         "description": "Bienvenue sur mon portfolio ! Je suis un développeur web passionné, axé sur le développement front-end et le design web. Ma mission est de créer des expériences en ligne exceptionnelles, centrées sur l'humain, en mettant l'accent sur l'accessibilité et l'expérience utilisateur. Mon parcours dans le monde du développement web a débuté avec une passion pour les technologies émergentes. Cette passion m'a conduit à entreprendre une formation approfondie chez OpenClassRoom, où j'ai acquis un ensemble complet de compétences pratiques. Ma boîte à outils comprend des langages tels que HTML, CSS, SASS, et SQL, ainsi que des bibliothèques et des frameworks tels que JQuery, JavaScript, React et React Native. Je suis également à l'aise avec les bases de données MongoDB, les technologies serveur Express et Node, ainsi que des outils de conception tels que Figma et Canva. Chaque ligne de code que j'écris vise à créer des interfaces interactives et esthétiquement plaisantes. Mon engagement envers l'accessibilité garantit que mes projets sont accessibles à tous, indépendamment des capacités. Mon objectif ultime est de fusionner la créativité et la fonctionnalité pour offrir des solutions web innovantes. Si vous recherchez un développeur web passionné, axé sur l'utilisateur et prêt à relever de nouveaux défis, n'hésitez pas à me contacter. "
     },
+    "skills": [
+        "tailwind.png",
+        "figma.png",
+        "canva.png",
+        "html.png",
+        "sql.png",
+        "sass.png",
+        "git.png",
+        "bash.png"
+    ],
     "projects": [
         {
             "title": "Agence de voyage",

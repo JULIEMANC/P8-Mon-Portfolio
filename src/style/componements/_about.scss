@@ -23,6 +23,11 @@
     align-items: center;
     width: 100px;
     height: 30px;
+    &:hover {
+      background-color:white;
+      border: solid black;
+      color:black;
+    }
   }
   .git {
     background-color: white;
@@ -32,6 +37,11 @@
     align-items: center;
     width: 100px;
     height: 30px;
+    &:hover {
+      background-color: black;
+      border: solid black;
+      color: white;
+    }
   }
   a {
     text-decoration: none;
@@ -41,8 +51,6 @@
 .block2 {
   margin-top: 50px;
   background-color: #ececec;
-  border-color: black;
-  border: solid;
   .title1 {
     margin-bottom: 15px;
   }

@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <div className="banner">
         <img
           className="logoGithub"
-          src="../assets/logo/git.png"
+          src="../assets/logo/git1.png"
           alt="logo github" 
         />
         <nav>

@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+
   .front {
     background-color: black;
     color: white;
@@ -13,6 +14,11 @@
     align-items: center;
     width: 100px;
     height: 30px;
+    &:hover {
+      background-color:white;
+      border: solid black;
+      color:black;
+    }
   }
   .back {
     background-color: white;
@@ -22,24 +28,48 @@
     align-items: center;
     width: 100px;
     height: 30px;
+    &:hover {
+      background-color: black;
+      border: solid black;
+      color: white;
+    }
   }
+  .line{
+    border: solid 2px; 
+  }
+.circles{
+  width: 100px;
+  height: 100px;
 }
-
+  }
+  
 .banner1 {
   width: 300px;
   height: 100px;
   background-color: #ececec;
   margin: 10px;
-  .rec {
-    width: 130px;
-    height: 3px;
-    background: black;
-    margin-left: 10px;
-    margin-top: 30px;
-  }
+  // .rec {
+  //   width: 130px;
+  //   height: 3px;
+  //   background: black;
+  //   margin-left: 10px;
+  // }
   .work {
     font-size: 12px;
-    margin-left: 10px;
-
+    margin-left: 5px;
+    font-weight: bold;
   }
+  .map{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    .logoSkills{
+    width: 30px;
+    height: 30px;
+    object-fit:cover;
+
+  } 
+  }
+ 
 }
+
