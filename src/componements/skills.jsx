@@ -3,7 +3,7 @@ const Competences = () => {
   return (
     <>
       <div className="button2">
-        <section className="frontend">
+        <section className="frontend" id="compétences">
           <img
             className="circles"
             src="../assets/images/front.webp"

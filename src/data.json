@@ -7,7 +7,6 @@
         "figma.png",
         "canva.png",
         "html.png",
-        "sql.png",
         "sass.png",
         "git.png",
         "bash.png"
@@ -17,75 +16,76 @@
             "title": "Agence de voyage",
             "description": " Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
             "tags": [
-                "Html",
-                "Css"
+                "Html &",
+                " Css"
             ],
-            "cover": "",
-            "pictures": []
+            "pictures": [
+            "booki.png"
+            ], 
+            "picturesModale":["booki2.png"]
         },
         {
             "title": "Portfolio Architect d'interieur",
             "description": "L'entreprise souhaite développer un site internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillerez en étroite collaboration avec Sarah, la CTO, et Loïc, l'UI designer.",
             "tags": [
-                "Html",
-                "Css"
+                "Html &",
+                " Css"
             ],
-            "cover": "",
-            "pictures": []
+            "pictures": ["archi.png"],
+            "picturesModale":["archi2.png", "archi3.png", "archi4.png"]
         },
         {
             "title": "Site d'une photographe",
-            "description": "Vous êtes développeur freelance, et vous décidez de proposer vos services d'optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l'un de vos amis.",
+            "description": "En tant que développeur freelance, et vous décidez de proposer vos services d'optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l'un de vos amis.",
             "tags": [
-                "Html",
-                "Css",
-                "Git"
+                "Html &",
+                " Css "
             ],
-            "cover": "",
-            "pictures": []
+            "pictures": ["photographe.png"],
+            "picturesModale":["photographe2.png", "photographe3.png"]
         },
         {
             "title": "Location immobilière ",
-            "description": "Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
+            "description": "Kasa m'a recruté en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
             "tags": [
-                "Sass",
-                "Css",
-                "React"
+                "Sass,",
+                " Css &",
+                " React"
             ],
-            "cover": "",
-            "pictures": []
+            "pictures": ["immo.png"],
+            "picturesModale":["immo2.png", "immo3.png", "immo4.png"]
         },
         {
             "title": "Mon vieux grimoire",
-            "description": "Vous êtes développeur back-end en freelance depuis un an dans la région de Lille. Kévin, un développeur front-end expérimenté avec un bon réseau de contacts, vous propose de travailler avec lui sur un nouveau projet. Ce projet concerne la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies.",
+            "description": "En tant que développeur back-end en freelance depuis un an dans la région de Lille. Kévin, un développeur front-end expérimenté avec un bon réseau de contacts, vous propose de travailler avec lui sur un nouveau projet. Ce projet concerne la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies.",
             "tags": [
-                "Node",
-                "Express",
-                "Mongo"
+                "Node,",
+                " Express &",
+                " Mongo"
             ],
-            "cover": "",
-            "pictures": []
+            "pictures": ["vieux.png"],
+            "picturesModale":["vieux2.png", "vieux3.png", "vieux4.png"]
         },
         {
             "title": "Novatoken ",
             "description": "Création d'un site qui présente un projet made in France, d'une cryptomonnaie .",
             "tags": [
-                "JS",
-                "Css"
+                "JS &",
+                " Css"
             ],
-            "cover": "",
-            "pictures": []
+            "pictures": ["nvt.png"],
+            "picturesModale":["nvt2.png","nvt3.png"]
         },
         {
             "title": "Flash enseignes ",
             "description": "Site de présentation pour une entreprise d'enseignes signalétiques, leurs services, leurs realisation, leurs contact et la présentation de l'équipe .",
             "tags": [
-                "React",
-                "Css",
-                "Tailwind"
+                "React,",
+                " Css &",
+                " Tailwind"
             ],
-            "cover": "",
-            "pictures": []
+            "pictures": ["flash.png"],
+            "picturesModale":[]
         }
     ]
 }

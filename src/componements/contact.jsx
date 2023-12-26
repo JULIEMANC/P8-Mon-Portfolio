@@ -14,7 +14,7 @@ const Contact = () => {
     };
   
     return (
-      <div>
+      <div id="contact">
         {!formSubmitted ? (
         <ContactForm onSubmit={handleFormSubmit} />
         ) : (

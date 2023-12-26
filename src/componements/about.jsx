@@ -5,11 +5,11 @@ import fixture from "../data.json";
 const About = () => {
   return (
     <>
-      <section className="propos">
+      <section className="propos" id="about">
         <h1 className="nom">MANCINO JULIE</h1>
         <h2 className="metier"> DEVELOPPEUR WEB FRONT-END</h2>
         <p>Façonnons ensemble votre vision numérique.</p>
-        <div className="buttons">
+        <div className="buttons" >
           <a className="contact1" href="/Contact" target="_blank">
             <button className="contact">Contactez-moi</button>
           </a>
