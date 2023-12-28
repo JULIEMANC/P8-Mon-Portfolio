@@ -13,21 +13,12 @@ $bs : 1260px;
     padding: 0;
     box-sizing: border-box;
 }
-// #root{
-// display: flex;
-// flex-direction: column;
-// height: 100vh;
-// justify-content: space-between;
-// }
-
 body{
 font-family:'Montserrat',sans-serif;
 }
-
 section {
-    padding: 10px;
-    border: 1px solid #ddd;
+//padding: 20px;
+    border: 2px solid #ddd;
     border-radius: 8px;
     max-width: 320px;
-    margin: 0 auto;
 }

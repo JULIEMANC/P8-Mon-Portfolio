@@ -3,6 +3,7 @@
     opacity: 0; 
     transform: translateX(-100%); 
     transition: opacity 1s, transform 1s; 
+    margin: 5px;
 }
 .visible {
     opacity: 1;
@@ -12,6 +13,7 @@
   h2.contactFooter {
     font-size: 1.5em;
     margin-bottom: 20px;
+    margin-top: 10px;
     color: #333;
   }
 

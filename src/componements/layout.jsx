@@ -9,13 +9,11 @@ const Layout = ({ children }) => {
     <div className="body">
       <header>
         <div className="banner">
-          <a href="https://github.com/JULIEMANC" title="lien GitHub">
-            <img
-              className="logoGithub"
-              src="../assets/logo/git1.png"
-              alt="logo github"
-            />
-          </a>
+          <img
+            className="logoSite"
+            src="../assets/logo/logoSite.png"
+            alt="logo du site"
+          />
           <nav>
             <ul>
               <li>

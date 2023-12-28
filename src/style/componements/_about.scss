@@ -1,4 +1,5 @@
 .propos {
+  margin: 10px;
   .nom {
     display: flex;
     font-size: 35px;
@@ -13,6 +14,7 @@
   .buttons {
     display: flex;
     gap: 20px;
+    margin: 5px;
     :hover{
       transform: scale(.95);
     }
@@ -26,6 +28,11 @@
     align-items: center;
     width: 100px;
     height: 30px;
+    &:hover {
+      background-color:white;
+      border: solid black;
+      color:black;
+    }
   }
   .git {
     background-color: white;
@@ -35,6 +42,11 @@
     align-items: center;
     width: 100px;
     height: 30px;
+    &:hover {
+      background-color: black;
+      border: solid black;
+      color: white;
+    }
   }
   a {
     text-decoration: none;
@@ -44,6 +56,7 @@
 .block2 {
   margin-top: 50px;
   background-color: #ececec;
+  margin: 10px;
   .title1 {
     margin-bottom: 15px;
   }

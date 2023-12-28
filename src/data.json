@@ -1,6 +1,6 @@
 {
     "about": {
-        "description": "Bienvenue sur mon portfolio ! Je suis un développeur web passionné, axé sur le développement front-end et le design web. Ma mission est de créer des expériences en ligne exceptionnelles, centrées sur l'humain, en mettant l'accent sur l'accessibilité et l'expérience utilisateur. Mon parcours dans le monde du développement web a débuté avec une passion pour les technologies émergentes. Cette passion m'a conduit à entreprendre une formation approfondie chez OpenClassRoom, où j'ai acquis un ensemble complet de compétences pratiques. Ma boîte à outils comprend des langages tels que HTML, CSS, SASS, et SQL, ainsi que des bibliothèques et des frameworks tels que JQuery, JavaScript, React et React Native. Je suis également à l'aise avec les bases de données MongoDB, les technologies serveur Express et Node, ainsi que des outils de conception tels que Figma et Canva. Chaque ligne de code que j'écris vise à créer des interfaces interactives et esthétiquement plaisantes. Mon engagement envers l'accessibilité garantit que mes projets sont accessibles à tous, indépendamment des capacités. Mon objectif ultime est de fusionner la créativité et la fonctionnalité pour offrir des solutions web innovantes. Si vous recherchez un développeur web passionné, axé sur l'utilisateur et prêt à relever de nouveaux défis, n'hésitez pas à me contacter. "
+        "description": "Bienvenue sur mon portfolio ! Je suis un développeuse web passionné, axé sur le développement front-end et le design web. Ma mission est de créer des expériences en ligne exceptionnelles, centrées sur l'humain, en mettant l'accent sur l'accessibilité et l'expérience utilisateur. Mon parcours dans le monde du développement web a débuté avec une passion pour les technologies émergentes. Cette passion m'a conduit à entreprendre une formation approfondie chez OpenClassRoom, où j'ai acquis un ensemble complet de compétences pratiques. Ma boîte à outils comprend des langages tels que HTML, CSS, SASS, et SQL, ainsi que des bibliothèques et des frameworks tels que JQuery, JavaScript, React et React Native. Je suis également à l'aise avec les bases de données MongoDB, les technologies serveur Express et Node, ainsi que des outils de conception tels que Figma et Canva. Chaque ligne de code que j'écris vise à créer des interfaces interactives et esthétiquement plaisantes. Mon engagement envers l'accessibilité garantit que mes projets sont accessibles à tous, indépendamment des capacités. Mon objectif ultime est de fusionner la créativité et la fonctionnalité pour offrir des solutions web innovantes. Si vous recherchez un développeur web passionné, prêt à relever de nouveaux défis, n'hésitez pas à me contacter. "
     },
     "skills": [
         "tailwind.png",
@@ -14,67 +14,67 @@
     "projects": [
         {
             "title": "Agence de voyage",
-            "description": " Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+            "description": " Je travaille comme développeuse front-end pour l’agence ArchiWebos. Je suis en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
             "tags": [
                 "Html &",
                 " Css"
             ],
             "pictures": [
-            "booki.png"
+            "booki.webp"
             ], 
-            "picturesModale":["booki2.png"]
+            "picturesModale":["booki.webp","booki2.webp"]
         },
         {
             "title": "Portfolio Architect d'interieur",
-            "description": "L'entreprise souhaite développer un site internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillerez en étroite collaboration avec Sarah, la CTO, et Loïc, l'UI designer.",
+            "description": "L'entreprise souhaite développer un site internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
             "tags": [
                 "Html &",
                 " Css"
             ],
-            "pictures": ["archi.png"],
-            "picturesModale":["archi2.png", "archi3.png", "archi4.png"]
+            "pictures": ["archi.webp"],
+            "picturesModale":["archi.webp","archi2.webp", "archi3.webp", "archi4.png"]
         },
         {
             "title": "Site d'une photographe",
-            "description": "En tant que développeur freelance, et vous décidez de proposer vos services d'optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l'un de vos amis.",
+            "description": "En tant que développeur freelance, j'ai proposer mos services d'optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe.",
             "tags": [
                 "Html &",
                 " Css "
             ],
-            "pictures": ["photographe.png"],
-            "picturesModale":["photographe2.png", "photographe3.png"]
+            "pictures": ["photographe.webp"],
+            "picturesModale":["photographe.webp","photographe2.webp", "photographe3.webp"]
         },
         {
             "title": "Location immobilière ",
-            "description": "Kasa m'a recruté en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
+            "description": "Kasa m'a recruté en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements en France.",
             "tags": [
                 "Sass,",
                 " Css &",
                 " React"
             ],
-            "pictures": ["immo.png"],
-            "picturesModale":["immo2.png", "immo3.png", "immo4.png"]
+            "pictures": ["immo.webp"],
+            "picturesModale":["immo.webp","immo2.webp", "immo3.webp", "immo4.webp"]
         },
         {
             "title": "Mon vieux grimoire",
-            "description": "En tant que développeur back-end en freelance depuis un an dans la région de Lille. Kévin, un développeur front-end expérimenté avec un bon réseau de contacts, vous propose de travailler avec lui sur un nouveau projet. Ce projet concerne la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies.",
+            "description": "En tant que développeur back-end j'ai réalisé la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies.",
             "tags": [
                 "Node,",
                 " Express &",
                 " Mongo"
             ],
-            "pictures": ["vieux.png"],
-            "picturesModale":["vieux2.png", "vieux3.png", "vieux4.png"]
+            "pictures": ["vieux.webp"],
+            "picturesModale":["vieux.webp","vieux2.webp", "vieux3.webp", "vieux4.webp"]
         },
         {
             "title": "Novatoken ",
-            "description": "Création d'un site qui présente un projet made in France, d'une cryptomonnaie .",
+            "description": "Création d'un site qui présente un projet made in France, d'une cryptomonnaie et de son exploreur et sa blockchain .",
             "tags": [
-                "JS &",
+                "JavaScript &",
                 " Css"
             ],
-            "pictures": ["nvt.png"],
-            "picturesModale":["nvt2.png","nvt3.png"]
+            "pictures": ["nvt.webp"],
+            "picturesModale":["nvt.webp","nvt2.webp","nvt3.webp"]
         },
         {
             "title": "Flash enseignes ",
@@ -84,8 +84,8 @@
                 " Css &",
                 " Tailwind"
             ],
-            "pictures": ["flash.png"],
-            "picturesModale":[]
+            "pictures": ["flash.webp"],
+           "picturesModale":["flash.webp","flash1.webp","flash2.webp"]
         }
     ]
 }
