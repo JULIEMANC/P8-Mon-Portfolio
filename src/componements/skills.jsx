@@ -29,8 +29,11 @@ const Competences = () => {
        
          <div className="map"> 
          {data.skills.map((skills, i) => (
-       <img className="logoSkills" src={`../assets/logo/${skills}`} key={i} alt="imgData" />
-        ))}
+      <div key={i} className="logoContainer" data-tooltip={`Logo de ${skills}`}>
+      <img className="logoSkills" src={`../assets/logo/${skills}`} alt={`imgData-${i}`} />
+      </div>
+
+      ))}
         </div>
       </section>
     </>

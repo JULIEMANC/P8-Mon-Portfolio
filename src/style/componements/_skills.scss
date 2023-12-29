@@ -36,18 +36,13 @@
     width: 100px;
     height: 30px;
   }
-
-  // .line{
-  //   border: solid 2px;
-  // }
   .circles {
-    width: 280px;
-    height: 280px;
+    width: 100%;
   }
 }
 
 .banner1 {
-  //width: 300px;
+  width: 100%;
   height: 100px;
   background-color: #ececec;
   margin: 7px;
@@ -60,15 +55,42 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
-    .logoSkills { 
-      width: 35px;
-      height: 35px;
-      object-fit:cover;
-      transition: 0.1 ease;
-    }
-     .logoSkills:hover {
-      width: 50px;
-      overflow: hidden;
+
+    .logoContainer {
+      position: relative;
+      
+      .logoSkills {
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+        transition: transform 0.2s ease;
+    
+        &:hover {
+          transform: scale(1.4); 
+        }
+      }
+
+      &[data-tooltip] {
+        position: relative;
+        cursor: pointer;
+
+        &:hover::after {
+          content: attr(data-tooltip);
+          position: absolute;
+          bottom: 100%; 
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: #333;
+          color: #fff;
+          border-radius: 6px;
+          font-size: 8px;
+          padding: 5px;
+          visibility: visible;
+          opacity: 1;
+          z-index: 1;
+          transition: opacity 0.3s;
+        }
+      }
     }
   }
 }
