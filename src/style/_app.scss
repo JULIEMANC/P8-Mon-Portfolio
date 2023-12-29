@@ -1,24 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Raleway:wght@300;400&display=swap');
-body{
-    background-color:white;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Raleway:wght@300;400&display=swap");
+body {
+  background-color: white;
 }
 /*taille d'écran */
-$ms: 768px;
-$ls: 1440px;
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+$ms: 767px;
+//$ls: 1440px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-font-family:'Montserrat',sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 section {
-    border: 2px solid #ddd;
-    max-width: 320px;
+  border: 2px solid #ddd;
 }

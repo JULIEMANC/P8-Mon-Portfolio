@@ -1,65 +1,69 @@
-#contact{
+#contact {
   display: flex;
   justify-content: center;
 }
-.contactSection{
-    opacity: 0; 
-    transform: translateX(-100%); 
-    transition: opacity 1s, transform 1s; 
-    margin: 5px;
+.contactSection {
+  opacity: 0;
+  transform: translateX(-100%);
+  width: 100%;
+  transition: opacity 1s, transform 1s;
+  margin: 5px;
+  @media (min-width: $ms) {
+    width: 700px;
+  }
 }
 .visible {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  
-  h2.contactFooter {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    color: #333;
-  }
+  opacity: 1;
+  transform: translateX(0);
+}
 
-  form {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    padding: 15px; 
-    label {
-      margin-bottom: 10px;
-      font-size: 15px;
+h2.contactFooter {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #333;
+  margin-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 15px;
+  label {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: white;
+  }
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  textarea {
+    min-height: 100px;
+  }
+  button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: black;
+      border: solid white 0.5px;
       color: white;
-    }
-    input,
-    textarea {
-      padding: 10px; 
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 12px;
-      width: 100%; 
-      box-sizing: border-box; 
-    }
-    textarea {
-      min-height: 100px;
-    }
-    button {
-      padding: 10px;
-      background-color: white;
-      color: black;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 19px;
-      font-weight: bold;
-      transition: background-color 0.3s;
-  
-      &:hover {
-        background-color: black;
-        border: solid white 0.5px;
-        color: white;
-        padding :9px ;
-      }
+      padding: 9px;
     }
   }
-  
+}
