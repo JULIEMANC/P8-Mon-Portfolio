@@ -9,18 +9,24 @@
         "html.png",
         "sass.png",
         "git.png",
-        "bash.png"
+        "bash.png",
+        "react.png",
+        "js.png",
+        "express.png",
+        "css.png",
+        "node.png",
+        "mongo.png"
     ],
     "projects": [
         {
             "title": "Agence de voyage",
             "description": " Je travaille comme développeuse front-end pour l’agence ArchiWebos. Je suis en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
             "tags": [
-                "Html &",
-                " Css"
+                "HTML &",
+                " CSS"
             ],
             "pictures": [
-            "booki.webp"
+            "voyage.png"
             ], 
             "picturesModale":["booki.webp","booki2.webp"]
         },
@@ -28,63 +34,63 @@
             "title": "Portfolio Architect d'interieur",
             "description": "L'entreprise souhaite développer un site internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
             "tags": [
-                "Html &",
-                " Css"
+                "HTML &",
+                " CSS"
             ],
-            "pictures": ["archi.webp"],
+            "pictures": ["archit.png"],
             "picturesModale":["archi.webp","archi2.webp", "archi3.webp", "archi4.png"]
         },
         {
             "title": "Site d'une photographe",
             "description": "En tant que développeur freelance, j'ai proposer mos services d'optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe.",
             "tags": [
-                "Html &",
-                " Css "
+                "HTML ,",
+                " CSS ","& JAVASCRIPT"
             ],
-            "pictures": ["photographe.webp"],
-            "picturesModale":["photographe.webp","photographe2.webp", "photographe3.webp"]
+            "pictures": ["photographe.png"],
+            "picturesModale":["photo.webp","photographe2.webp", "photographe3.webp"]
         },
         {
             "title": "Location immobilière ",
             "description": "Kasa m'a recruté en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web de location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements en France.",
             "tags": [
-                "Sass,",
-                " Css &",
-                " React"
+                "SASS,",
+                " CSS &",
+                " REACT"
             ],
-            "pictures": ["immo.webp"],
+            "pictures": ["immob.png"],
             "picturesModale":["immo.webp","immo2.webp", "immo3.webp", "immo4.webp"]
         },
         {
             "title": "Mon vieux grimoire",
             "description": "En tant que développeur back-end j'ai réalisé la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies.",
             "tags": [
-                "Node,",
-                " Express &",
-                " Mongo"
+                "NODE,",
+                " EXPRESS &",
+                " MONGO DB"
             ],
-            "pictures": ["vieux.webp"],
+            "pictures": ["vieuxG.png"],
             "picturesModale":["vieux.webp","vieux2.webp", "vieux3.webp", "vieux4.webp"]
         },
         {
             "title": "Novatoken ",
             "description": "Création d'un site qui présente un projet made in France, d'une cryptomonnaie et de son exploreur et sa blockchain .",
             "tags": [
-                "JavaScript &",
-                " Css"
+                "JAVASCRIPT &",
+                " CSS"
             ],
-            "pictures": ["nvt.webp"],
+            "pictures": ["novaT.png"],
             "picturesModale":["nvt.webp","nvt2.webp","nvt3.webp"]
         },
         {
             "title": "Flash enseignes ",
             "description": "Site de présentation pour une entreprise d'enseignes signalétiques, leurs services, leurs realisation, leurs contact et la présentation de l'équipe .",
             "tags": [
-                "React,",
-                " Css &",
-                " Tailwind"
+                "REACT,",
+                " CSS &",
+                " TAILWIND"
             ],
-            "pictures": ["flash.webp"],
+            "pictures": ["flashE.png"],
            "picturesModale":["flash.webp","flash1.webp","flash2.webp"]
         }
     ]

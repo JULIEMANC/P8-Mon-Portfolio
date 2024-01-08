@@ -7,6 +7,7 @@ import Contact from "../componements/contact";
 const Layout = ({ children }) => {
   return (
     <div className="body">
+      <img src="../assets/images/background.webp" alt="" className="background"/>
       <header>
         <div className="banner">
           <img
@@ -42,7 +43,7 @@ const Layout = ({ children }) => {
 
       <footer>
         <Contact />
-        <p className="footerletter">Copyright © julie mancino</p>
+        <p className="footerletter">Copyright © Julie Mancino</p>
       </footer>
     </div>
   );

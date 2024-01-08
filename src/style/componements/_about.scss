@@ -1,140 +1,198 @@
-.propos {
-  width: 96%;
-  margin-inline: 10px;
+.container {
   display: flex;
+  flex-direction: row;
+  width: 100%;
   margin-bottom: 20px;
   @media (min-width: $ms) {
-    width: 700px;
+    //width: 750px;
+    flex-direction: row;
   }
-  .proposBlock{
-    margin: 5px;
-  .nom {
-    display: flex;
-    font-size: 35px;
-    @media (min-width: $ms) {
-      font-size: 50px;
-    }
-  }
-  h2 {
-    font-size: 22px;
-    @media (min-width: $ms) {
-      font-size: 25px;
-    }
-  }
-  p {
-    font-size: 10px;
-    margin-bottom: 20px;
-    @media (min-width: $ms) {
-      font-size: 13px;
-    }
-  }
-  .button {
-    display: flex;
-    @media (min-width: $ms) {
-    }
-    :hover {
-      transform: scale(0.95);
-    }
-  }
-  .contact {
-    background-color: black;
+}
+
+.propos {
+  flex: 1;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: 7px;
+  border-radius: 10px;
+//   background-color: rgba(49, 49, 49, 0.5); 
+//   color: white;
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   //padding: 15px;
+// border-radius: 10px;
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     backdrop-filter: blur(1px); 
+// z-index: -1;
+//   }
+  // border-radius: 5px;
+  // border: 0.5px solid rgba(255, 255, 255, 0.75);
+ //background: linear-gradient(128deg, rgba(255, 255, 255, 0.30) 5.95%, rgba(255, 255, 255, 0.08) 91.5%);
+  // backdrop-filter: blur(2px);
+  // overflow: hidden;
+  // padding: 15px;
+  // margin: 7px;
+  // color: white;
+  // display: flex;
+  // flex-direction: column;
+  // gap: 10px;
+
+  // &:before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   background: inherit;
+  //   border-radius: inherit;
+  //   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  //   z-index: -1;
+  // }
+
+  @media (min-width: $ms) {
+    flex-direction: row;
+    flex: 1;
     color: white;
-    gap: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100px;
-    height: 30px;
-    &:hover {
-      background-color: white;
-      border: solid black;
-      color: black;
-    }
-    @media (min-width: $ms) {
-      font-size: 16px;
-      width: 125px;
-      height: 40px;
-    }
   }
-  .git {
-    background-color: white;
-    border-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100px;
-    height: 30px;
-    &:hover {
-      background-color: black;
-      border: solid black;
-      color: white;
+  .proposBlock {
+    margin: 10px;
+    .nom {
+      display: flex;
+      font-size: 35px;
+
+      @media (min-width: $ms) {
+        font-size: 55px;
+      }
+      @media (min-width: $ls) {
+        font-size: 65px;
+      }
     }
-    @media (min-width: $ms) {
-      font-size: 16px;
-      width: 125px;
-      height: 40px;
+
+    h2 {
+      font-size: 25px;
+      margin-top: 15px;
+      @media (min-width: $ms) {
+        font-size: 20px;
+      }
+      @media (min-width: $ls) {
+        font-size: 30px;
+      }
     }
-  }
-  a {
-    text-decoration: none;
-    margin: 5px;
+
+    p {
+      font-size: 10px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+
+      @media (min-width: $ms) {
+        font-size: 15px;
+        margin-bottom: 30px;
+      }
+      @media (min-width: $ls) {
+        font-size: 20px;
+      }
+    }
+
+    .button {
+      display: flex;
+    
+      .contact {
+        background-color: black;
+        color: white;
+        gap: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+
+        &:hover {
+          background-color: white;
+          border: solid white;
+         color: black;
+        }
+
+        @media (min-width: $ms) {
+          font-size: 16px;
+          width: 125px;
+          height: 40px;
+        }
+        @media (min-width: $ls) {
+          width: 180px;
+          height: 60px;
+          font-size: 25px;
+        
+        }
+      }
+
+      .git {
+        border-radius: 10px;
+        background-color: white;
+       border-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+
+        &:hover {
+          background-color: black;
+          border: solid white;
+          color: white;
+        }
+
+        @media (min-width: $ms) {
+          font-size: 16px;
+          width: 125px;
+          height: 40px;
+        }
+        @media (min-width: $ls) {
+          width: 180px;
+          height: 60px;
+          font-size: 25px;
+         
+        }
+      }
+
+      a {
+        text-decoration: none;
+        margin: 5px;
+      }
+    }
   }
 }
-}
-.photoMe{
-  margin-top: 9px;
-  margin-left: 50px;
-   .PhotoMoi {
+.photoMe {
+  //margin-left: 50px;
+  border-radius: 10px;
+  flex: 1;
+  color: black;
+  display: none;
+  @media (min-width: $ms) {
+    display: flex;
+    width: 350px;
+    height: 400px;
+    margin: 7px;
+    border: solid 5px white rgba(180, 180, 180);
+  }
+
+  .PhotoMoi {
     display: none;
     @media (min-width: $ms) {
       display: flex;
-      border: solid 5px black;
-      width: 150px;
-      height: 170px;
-      object-fit: contain;
+      border-radius: 10px;
+      width: 100%;
+      object-fit: cover;
     }
-  }
-}
-
-
-
-
-
-.block2 {
-  background-color:black;
-  margin: 7px;
-  color: white;
-  @media (min-width: $ms) {
-    width: 700px;
-  }
-  .PhotoCode {
-    display: none;
-    @media (min-width: $ms) {
-      display: block;
-      width: 200px;
-      height: 200px;
-      margin: 10px;
-    margin-top: -40px;
-      border-radius: 50%;
-    }
-  }
-  .title1 {
-    @media (min-width: $ms) {
-      margin-left: 225px;
-    }
-    margin-bottom: 15px;
-    margin-left: 5px;
-    margin-top: 10px;
-  }
-  .texte1 {
-    font-size: 13px;
-    margin-left: 5px;
-    margin-right: 15px;
-    margin-bottom: 10px;
-  }
-  .block {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+   
   }
 }

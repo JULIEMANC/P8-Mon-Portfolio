@@ -1,9 +1,9 @@
 import React from "react";
-import fixture from "../data.json";
+
 
 const About = () => {
   return (
-    <>
+    <div className="container">
       <section className="propos" id="about">
         <div className="proposBlock">
           <h1 className="nom">MANCINO JULIE</h1>
@@ -24,26 +24,18 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="photoMe">
+      </section> 
+      
+      <section className="photoMe">
           <img
             className="PhotoMoi"
             src="../assets/images/moi.jpeg"
             alt="moi de près "
-          />
-        </div>
-      </section>
-      <section className="block2">
-        <h2 className="title1">À propos de moi :</h2>
-        <div className="block">
-          <img
-            className="PhotoCode"
-            src="../assets/images/code.webp"
-            alt="code React vu de près"
-          />
-          <p className="texte1">{fixture.about.description}</p>
-        </div>
-      </section>
-    </>
+          />    
+        </section> 
+    
+      </div>
+   
   );
 };
 

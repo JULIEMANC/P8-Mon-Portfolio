@@ -1,80 +1,202 @@
-.button2 {
+.propos2 {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 7px;
+  color: white;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  @media (min-width: $ms) {
+  flex-wrap: wrap;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  background: linear-gradient(
+    128deg,
+    rgba(255, 255, 255, 0.4) 5.95%,
+    rgba(255, 255, 255, 0.02) 91.5%
+  );
+  backdrop-filter: blur(5px);
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+  }
+
+  .title1 {
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+    @media (min-width: $ms) {
+      font-size: 35px;
+    }
+  }
+
+  .texte1 {
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .block {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 710px;
-  }
-  .frontend,
-  .backend {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 7px;
-  }
-  .frontend {
-    margin-bottom: 10px;
-  }
-  .front {
-    background-color: black;
-    margin: 10px;
-    color: white;
-    gap: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100px;
-    height: 30px;
-  }
-  .back {
-    margin: 10px;
-    background-color: white;
-    border-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100px;
-    height: 30px;
-  }
-  .front,
-  .back {
-    @media (min-width: $ms) {
-      font-size: 16px;
-      width: 125px;
-      height: 40px;
-    }
-  }
-  .circles {
-    width: 100%;
   }
 }
+
+// .button2 {
+//   display: flex;
+//   flex-direction: column;
+//   margin-top: 20px;
+//   margin-bottom: 10px;
+//   position: relative; /* Add this to make positioning of pseudo-element relative to .propos2 */
+//   background-color: rgba(
+//     0,
+//     0,
+//     0,
+//     0.3
+//   );
+//   color: white;
+//   padding: 10px;
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     backdrop-filter: blur(20px); /* Adjust the blur as needed */
+//     z-index: -1; /* Place the pseudo-element behind the content */
+//   }
+//   @media (min-width: $ms) {
+//     //margin: 7px;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//     //width: 750px;
+//   }
+//   .frontend,
+//   .backend {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin: 7px;
+//   }
+//   .frontend {
+//     margin-bottom: 10px;
+//   }
+//   .front {
+//     background-color: black;
+//     margin: 10px;
+//     color: white;
+//     gap: 10px;
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+//     width: 100px;
+//     height: 30px;
+//   }
+//   .back {
+//     margin: 10px;
+//     background-color: white;
+//     border-color: black;
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+//     width: 100px;
+//     height: 30px;
+//   }
+//   .front,
+//   .back {
+//     @media (min-width: $ms) {
+//       font-size: 16px;
+//       width: 125px;
+//       height: 40px;
+//     }
+//   }
+//   .circles {
+//     width: 100%;
+//   }
+// }
 .banner1 {
-  width: 100%;
-  height: 100px;
-  background-color: #ececec;
+  width: 96%;
+  height: auto;
+  margin-bottom: 20px;
+  // background: rgba(255, 255, 255, 0.2);
+  // border-radius: 10px;
+  // overflow: hidden;
+  // margin: 7px;
+  // &:before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   background: inherit;
+  //   border-radius: inherit;
+  //   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  // }
+  border-radius: 5px;
+  background: linear-gradient(
+    128deg,
+    rgba(0, 0, 0, 0.074) 5.95%,
+    rgba(255, 255, 255, 0.08) 91.5%
+  );
+  backdrop-filter: blur(2px);
+  overflow: hidden;
+  padding: 15px;
   margin: 7px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    z-index: -1;
+  }
   @media (min-width: $ms) {
-    width: 700px;
-    height: 150px;
+    width: 99%;
+    height: 300px;
+    margin: 7px;
+    padding: 10px;
+  }
+  @media (min-width: $ls) {
+    //width: 100%;
   }
   .work {
     font-size: 12px;
-    margin-left: 5px;
     font-weight: bold;
-    margin-top: 10px;
+    color: #fff;
+    //margin-top: 15px;
     @media (min-width: $ms) {
       font-size: 15px;
+    }
+    @media (min-width: $ls) {
+      font-size: 25px;
     }
   }
   .map {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 20px;
-
+    margin-top: 15px;
+    gap: 30px;
     .logoContainer {
       position: relative;
 
@@ -86,6 +208,11 @@
         @media (min-width: $ms) {
           width: 60px;
           height: 60px;
+        }
+        @media (min-width: $ls) {
+          width: 80px;
+          height: 80px;
+          margin-top: -10px;
         }
         &:hover {
           transform: scale(1.4);

@@ -1,8 +1,21 @@
 import data from "../data.json";
-const Competences = () => {
+import fixture from "../data.json";
+const Skills = () => {
   return (
     <>
-      <div className="button2">
+    <div className="propos2">
+        <h2 className="title1">À PROPOS DE MOI :</h2>
+        <div className="block">
+          {/* <img
+            className="PhotoCode"
+            src="../assets/images/code.webp"
+            alt="code React vu de près"
+          /> */}
+          <p className="texte1">{fixture.about.description}</p>
+       </div> 
+    </div>
+    
+      {/* <div className="button2">
         <section className="frontend" id="compétences">
           <img
             className="circles"
@@ -22,7 +35,7 @@ const Competences = () => {
           />
           <button className="back">Back-end</button>
         </section>
-      </div>
+      </div> */}
       <section className="banner1">
         <div className="rec"></div>
         <p className="work">J'ai pu travailler avec : </p>
@@ -40,4 +53,4 @@ const Competences = () => {
   );
 };
 
-export default Competences;
+export default Skills;

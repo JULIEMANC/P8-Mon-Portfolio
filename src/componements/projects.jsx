@@ -1,44 +1,3 @@
-// import data from "../data.json";
-// import { HashLink } from "react-router-hash-link";
-// import Modal from "./modals";
-// import React, { useState } from "react";
-
-// const Projects = ({ projects }) => {
-//   const [selectedProject, setSelectedProject] = useState(null);
-//   //const { title, pictures } = data;
-//   const openModal = (project) => {
-//     setSelectedProject(project);
-//   };
-
-//   const closeModal = () => {
-//     setSelectedProject(null);
-//   };
-
-//   return (
-//     <section id="projects" className="blockProjects">
-//       {data.projects.map((projects, i) => (
-//         <article className="card-bloc-item" key={i}>
-//           <HashLink className="card" to={`#projects`} onClick={() => openModal(projects)}>
-//             <img
-//               className="imProjects"
-//               src={`../assets/images/${projects.pictures}`}
-//               key={i}
-//               alt="imgData"
-//               />
-//               <h2>{projects.title}</h2>
-//               <div className="tags">{projects.tags}</div>
-//           </HashLink>
-//         </article>
-//       ))}
-//        {selectedProject && (
-//         <Modal project={selectedProject} onClose={closeModal} />
-//       )}
-//     </section>
-//   );
-//  };
-
-// export default Projects;
-
 import React, { useState } from "react";
 import data from "../data.json";
 import { HashLink } from "react-router-hash-link";
@@ -55,8 +14,11 @@ const Projects = () => {
     setSelectedProject(null);
   };
 
-  return (
+  return (  
+    <div>    
+  <h2 className="title">MES PROJETS :</h2>
     <section id="projects" className="blockProjects">
+
       {data.projects.map((project, i) => (
         <article className="card-bloc-item" key={i}>
           <HashLink
@@ -80,6 +42,7 @@ const Projects = () => {
         <Modal project={selectedProject} onClose={closeModal} />
       )}
     </section>
+    </div>
   );
 };
 

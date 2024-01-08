@@ -1,146 +1,30 @@
-// .blockProjects {
-//   background-color: white;
-//   border: none;
-//   margin: 5px;
-
-//   .imProjects {
-//     width: 100%;
-//     height: auto;
-//     object-fit: contain;
-//     border-radius: 15px;
-//     @media (min-width: $ms) {
-//       width: 500px;
-//       height: auto;
-//       object-fit: cover;
-//     }
-//   }
-//   .card-bloc-item {
-//     background-color: black;
-//     padding: 10px;
-//     border: 1px solid #ddd;
-//     border-radius: 8px;
-//     //max-width: 400px;
-//     width: 100%;
-//     max-height: 400px;
-//     margin: 0 auto;
-//     display: flex;
-//     justify-content: center;
-//     margin-bottom: 10px;
-//     @media (min-width: $ms) {
-//       width: 700px;
-//       height: auto;
-//     }
-//   }
-//   .card {
-//     text-decoration: none;
-//     width: 100%;
-//     @media (min-width: $ms) {
-//       display: flex;
-//       flex-direction: column;
-//       align-items: center;
-//     }
-//     h2 {
-//       color: white;
-//       font-size: 15px;
-//       font-weight: 100;
-//       text-decoration: none;
-//       border-bottom: none;
-//       border-bottom: 20px;
-//     }
-//     .tags {
-//       background-color: white;
-//       font-size: 12px;
-//       color: black;
-//       gap: 10px;
-//       display: flex;
-//       justify-content: space-around;
-//       align-items: center;
-//       width: auto;
-//       height: 20px;
-//       border-radius: 8px;
-//       margin: 5px;
-//       @media (min-width: $ms) {
-//         width: 150px;
-//       }
-//     }
-//   }
-// }
-// .modal-overlay {
-//   position: fixed;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   top: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-color: rgba(0, 0, 0, 0.5);
-
-//   .modal-content {
-//     border-radius: 8px;
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-around;
-//     align-items: center;
-//     width: 80vw;
-//     max-height: 400px;
-//     background-color: rgba(0, 0, 0, 0.8);
-//     overflow-y: auto;
-
-//     .modal-image {
-//       width: 100%;
-//       height: auto;
-//       max-height: 70%;
-//       object-fit: contain;
-//     }
-
-//     .modal-description {
-//       font-size: 12px;
-//       margin: 10px;
-//       color: #ddd;
-//     }
-//     .prev,
-//     .next {
-//       border: none;
-//       background-color: unset;
-//       position: absolute;
-//       z-index: 1;
-//       background-color: #ddd;
-//       width: 15px;
-//       height: 15px;
-//       border-radius: 50%;
-//       box-shadow: 2px white rgba(0, 0, 0, 0.5);
-//       @media (min-width: $ms) {
-//         width: 25px;
-//         height: 25px;
-//       }
-//     }
-//     .prev {
-//       margin-right: 230px;
-//       @media (min-width: $ms) {
-//         margin-left: -350px;
-//       }
-//     }
-//     .next {
-//       margin-left: 220px;
-//       @media (min-width: $ms) {
-//         margin-left: 570px;
-//       }
-//     }
-//     .vector {
-//       width: 10px;
-//       height: 10px;
-//       color: black;
-//     }
-//   }
-// }
-
+.title {
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+text-decoration: underline white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+ 
+}
 .blockProjects {
-  background-color: white;
+  margin-bottom: 20px;
+  //border-radius: 10px;
   border: none;
-  margin: 5px;
+  width: 98%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  @media (min-width: $ms) {
+
+border:none;
+  }
+  @media (min-width: $ls) {
+    width: 99%;
+  }
 
   .imProjects {
     width: 100%;
@@ -148,10 +32,8 @@
     object-fit: cover;
     border-radius: 15px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-
     @media (min-width: $ms) {
-      //width: 100%;
-      width: 300px;
+      width: 100%;
       height: auto;
     }
 
@@ -162,50 +44,75 @@
   }
 
   .card-bloc-item {
-    background-color: black;
     padding: 20px;
     border-radius: 8px;
     width: 100%;
-    //max-height: 400px;
-    margin: 10px;
+    margin: 7px;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    transition: background-color 0.3s ease-in-out;
+    background: linear-gradient(
+      128deg,
+      rgba(0, 0, 0, 0.074) 5.95%,
+      rgba(255, 255, 255, 0.08) 91.5%
+    );
+    backdrop-filter: blur(2px);
+    overflow: hidden;
+    color: white;
+    gap: 10px;
+    border: 2px solid white;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: inherit;
+      border-radius: inherit;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      z-index: -1;
+    }
     @media (min-width: $ms) {
-      width: 340px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 45%;
       height: auto;
       display: flex;
     }
     &:hover {
-      background-color: #333;
+      background-color: black;
     }
   }
 
   .card {
     text-decoration: none;
     width: 100%;
-
     h2 {
       color: white;
       font-size: 18px;
       font-weight: bold;
       margin-top: 10px;
       margin-bottom: 15px;
+      display: flex;
+      justify-content: center;
     }
 
     .tags {
-      background-color: #fff;
-      font-size: 14px;
-      color: black;
       display: flex;
       justify-content: center;
-      align-items: center;
-      width: 100%;
-      border-radius: 8px;
-      padding: 8px;
-      margin-top: 10px;
+      color: black;
+      font-weight: 1000;
+      padding: 10px;
+      gap: 10px;
+      border-radius: 5px;
+      border: 0.5px solid rgba(255, 255, 255, 0.8);
+      background: linear-gradient(
+        128deg,
+        rgba(255, 255, 255, 0.3) 5.95%,
+        rgba(201, 201, 201, 0.08) 91.5%
+      );
+      backdrop-filter: blur(5px);
     }
   }
 }
@@ -221,19 +128,19 @@
   background-color: rgba(0, 0, 0, 0.5);
 
   .modal-content {
-    border-radius: 8px;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 80vw;
     max-height: 400px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     overflow-y: auto;
+    border: 3px solid;
 
     .modal-image {
       width: 100%;
-      height: auto;
       max-height: 70%;
       object-fit: contain;
     }
@@ -254,17 +161,19 @@
       width: 25px;
       height: 25px;
       border-radius: 50%;
-      box-shadow: 2px white rgba(0, 0, 0, 0.5);
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
 
     .prev {
-      margin-right: 230px;
+      margin-right: 200px;
       @media (min-width: $ms) {
-        margin-left: -350px;
+        margin-right: -350px;
       }
     }
+
     .next {
-      margin-left: 220px;
+      margin-left: 200px;
+      margin-top: 10px;
       @media (min-width: $ms) {
         margin-left: 570px;
       }
