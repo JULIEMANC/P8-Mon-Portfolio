@@ -15,7 +15,7 @@ const Skills = () => {
        </div> 
     </div>
     
-      {/* <div className="button2">
+      <div className="button2">
         <section className="frontend" id="compétences">
           <img
             className="circles"
@@ -35,7 +35,7 @@ const Skills = () => {
           />
           <button className="back">Back-end</button>
         </section>
-      </div> */}
+      </div>
       <section className="banner1">
         <div className="rec"></div>
         <p className="work">J'ai pu travailler avec : </p>

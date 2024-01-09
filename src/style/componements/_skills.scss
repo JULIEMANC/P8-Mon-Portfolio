@@ -41,6 +41,13 @@
     margin-left: 5px;
     margin-right: 15px;
     margin-bottom: 10px;
+    @media (min-width: $ls) {
+      font-size: 17px;
+    }
+
+    @media (min-width: $bs) {
+      font-size: 17px;
+    }
   }
 
   .block {
@@ -50,99 +57,90 @@
   }
 }
 
-// .button2 {
-//   display: flex;
-//   flex-direction: column;
-//   margin-top: 20px;
-//   margin-bottom: 10px;
-//   position: relative; /* Add this to make positioning of pseudo-element relative to .propos2 */
-//   background-color: rgba(
-//     0,
-//     0,
-//     0,
-//     0.3
-//   );
-//   color: white;
-//   padding: 10px;
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     bottom: 0;
-//     left: 0;
-//     backdrop-filter: blur(20px); /* Adjust the blur as needed */
-//     z-index: -1; /* Place the pseudo-element behind the content */
-//   }
-//   @media (min-width: $ms) {
-//     //margin: 7px;
-//     display: flex;
-//     flex-direction: row;
-//     flex-wrap: nowrap;
-//     //width: 750px;
-//   }
-//   .frontend,
-//   .backend {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     margin: 7px;
-//   }
-//   .frontend {
-//     margin-bottom: 10px;
-//   }
-//   .front {
-//     background-color: black;
-//     margin: 10px;
-//     color: white;
-//     gap: 10px;
-//     display: flex;
-//     justify-content: space-around;
-//     align-items: center;
-//     width: 100px;
-//     height: 30px;
-//   }
-//   .back {
-//     margin: 10px;
-//     background-color: white;
-//     border-color: black;
-//     display: flex;
-//     justify-content: space-around;
-//     align-items: center;
-//     width: 100px;
-//     height: 30px;
-//   }
-//   .front,
-//   .back {
-//     @media (min-width: $ms) {
-//       font-size: 16px;
-//       width: 125px;
-//       height: 40px;
-//     }
-//   }
-//   .circles {
-//     width: 100%;
-//   }
-// }
+.button2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  color: white;
+  padding: 10px;
+
+  @media (min-width: $ms) {
+    //margin: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    //width: 750px;
+  }
+  .frontend,
+  .backend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7px;
+  }
+  .frontend {
+    margin-bottom: 10px;
+  }
+  .front {
+    background-color: black;
+    margin: 10px;
+    color: white;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+  }
+  .back {
+    margin: 10px;
+    background-color: white;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+  }
+  .front,
+  .back {
+    @media (min-width: $ms) {
+      font-size: 16px;
+      width: 125px;
+      height: 40px;
+    }
+  }
+  .circles {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    background: linear-gradient(
+      128deg,
+      rgba(255, 255, 255, 0.6) 5.95%,
+      rgba(255, 255, 255, 0.02) 100%
+    );
+
+    backdrop-filter: blur(5px);
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+    &:hover {
+      background-color:rgba(255, 255, 255, 0.217);
+      color: white;
+    }
+  }
+}
 .banner1 {
-  width: 96%;
+  width: 98%;
   height: auto;
   margin-bottom: 20px;
-  // background: rgba(255, 255, 255, 0.2);
-  // border-radius: 10px;
-  // overflow: hidden;
-  // margin: 7px;
-  // &:before {
-  //   content: '';
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   bottom: 0;
-  //   left: 0;
-  //   background: inherit;
-  //   border-radius: inherit;
-  //   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  // }
   border-radius: 5px;
   background: linear-gradient(
     128deg,
@@ -157,7 +155,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
+
   &:before {
     content: "";
     position: absolute;
@@ -177,15 +175,18 @@
     padding: 10px;
   }
   @media (min-width: $ls) {
-    //width: 100%;
+    height: 300px;
+  }
+  @media (min-width: $bs) {
+    height: 200px;
   }
   .work {
     font-size: 12px;
     font-weight: bold;
     color: #fff;
-    //margin-top: 15px;
+    text-decoration: underline;
     @media (min-width: $ms) {
-      font-size: 15px;
+      font-size: 20px;
     }
     @media (min-width: $ls) {
       font-size: 25px;

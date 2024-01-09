@@ -3,15 +3,16 @@
   font-size: 30px;
   display: flex;
   justify-content: center;
-text-decoration: underline white;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  text-decoration: underline white;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 7px;
- 
+  @media (min-width: $ls) {
+    font-size: 40px;
+  }
 }
 .blockProjects {
   margin-bottom: 20px;
-  //border-radius: 10px;
   border: none;
   width: 98%;
   display: flex;
@@ -19,8 +20,7 @@ text-decoration: underline white;
   justify-content: space-between;
   margin-top: 15px;
   @media (min-width: $ms) {
-
-border:none;
+    border: none;
   }
   @media (min-width: $ls) {
     width: 99%;
@@ -36,7 +36,6 @@ border:none;
       width: 100%;
       height: auto;
     }
-
     &:hover {
       transform: scale(1.1);
       background-color: #333;
@@ -80,9 +79,6 @@ border:none;
       height: auto;
       display: flex;
     }
-    &:hover {
-      background-color: black;
-    }
   }
 
   .card {
@@ -92,31 +88,35 @@ border:none;
       color: white;
       font-size: 18px;
       font-weight: bold;
-      margin-top: 10px;
+      margin-top: 15px;
       margin-bottom: 15px;
       display: flex;
       justify-content: center;
+      @media (min-width: $bs) {
+        font-size: 22px;
+      }
     }
 
     .tags {
       display: flex;
       justify-content: center;
-      color: black;
+      color: rgba(4, 0, 0, 0.625);
       font-weight: 1000;
       padding: 10px;
       gap: 10px;
       border-radius: 5px;
-      border: 0.5px solid rgba(255, 255, 255, 0.8);
-      background: linear-gradient(
-        128deg,
-        rgba(255, 255, 255, 0.3) 5.95%,
-        rgba(201, 201, 201, 0.08) 91.5%
-      );
+      border: 0.5px solid rgb(255, 255, 255);
       backdrop-filter: blur(5px);
+      &:hover {
+        color: white;
+      }
+      @media (min-width: $bs) {
+        font-size: 20px;
+      }
     }
   }
 }
-
+/* MODAL WORK */
 .modal-overlay {
   position: fixed;
   display: flex;
@@ -125,7 +125,7 @@ border:none;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 
   .modal-content {
     border-radius: 10px;
@@ -133,12 +133,20 @@ border:none;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 80vw;
-    max-height: 400px;
-    background-color: rgba(0, 0, 0, 0.9);
+    // width: 80vw;
+    // max-height: 400px;
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff7e;
+    //background-color: rgba(0, 0, 0, 0.9);
     overflow-y: auto;
     border: 3px solid;
-
+    // @media (min-width: $ms) {
+    // }
+    // @media (min-width: $ls) {
+    // }
+    // @media (min-width: $bs) {
+    // }
     .modal-image {
       width: 100%;
       max-height: 70%;
@@ -148,7 +156,8 @@ border:none;
     .modal-description {
       font-size: 14px;
       margin: 10px;
-      color: #ddd;
+      //color: #ddd;
+      color: #000000;
     }
 
     .prev,
@@ -166,16 +175,29 @@ border:none;
 
     .prev {
       margin-right: 200px;
+      margin-top: -90px;
       @media (min-width: $ms) {
-        margin-right: -350px;
+        margin-right: 550px;
+      }
+      @media (min-width: $ls) {
+        margin-right: 800px;
+      }
+      @media (min-width: $bs) {
+        margin-right: 1000px;
       }
     }
 
     .next {
       margin-left: 200px;
-      margin-top: 10px;
+      margin-top: -90px;
       @media (min-width: $ms) {
-        margin-left: 570px;
+        margin-left: 550px;
+      }
+      @media (min-width: $ls) {
+        margin-left: 800px;
+      }
+      @media (min-width: $bs) {
+        margin-left: 1000px;
       }
     }
 
