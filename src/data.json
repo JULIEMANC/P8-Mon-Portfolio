@@ -59,7 +59,7 @@
     "projects": [
         {
             "title": "AGENCE DE VOYAGE",
-            "description": " Je travaille comme développeuse front-end pour l’agence ArchiWebos. Je suis en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+            "description": "Je suis développeuse front-end pour l’agence ArchiWebos. Je suis en renfort pour une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur, jai rencontrée des difficultés pour le Css concernant ce projet. ",
             "tags": [
                 "HTML &",
                 " CSS"
@@ -71,9 +71,9 @@
         },
         {
             "title": "PORTFOLIO ARCHITECT D'INTERIEUR",
-            "description": "L'entreprise souhaite développer un site internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
+            "description": "L'entreprise souhaite développer un site internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Je suis chargée d'intégrer l'interface du site,la petite difficultée était d'apprendre le Javascript concernant ce projet.",
             "tags": [
-                "HTML &",
+                "JAVASCRIPT &",
                 " CSS"
             ],
             "pictures": ["archit.png"],
@@ -81,7 +81,7 @@
         },
         {
             "title": "SITE D'UNE PHOTOGRAPHE",
-            "description": "En tant que développeur freelance, j'ai proposer mos services d'optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe.",
+            "description": "En tant que développeuse freelance, j'ai proposer mes services d'optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe.J'ai eu des difficultées à trouver 3 erreurs en Jquery.",
             "tags": [
                 "HTML ,",
                 " CSS ","& JAVASCRIPT"
@@ -91,7 +91,7 @@
         },
         {
             "title": "LOCATION IMMOBILIÈRE ",
-            "description": "Kasa m'a recruté en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web de location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements en France.",
+            "description": "Kasa m'a recruté en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web de location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements en France.Dans ce projet, j'ai rencontrée des difficultées concernant l'animation des collapses  .",
             "tags": [
                 "SASS,",
                 " CSS &",
@@ -102,7 +102,7 @@
         },
         {
             "title": "MON VIEUX GRIMOIRE",
-            "description": "En tant que développeur back-end j'ai réalisé la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies.",
+            "description": "En tant que développeur back-end j'ai réalisé la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies, j'ai rencontrée des difficultées sur le controller, de fonction de modifications d'un livre existant.",
             "tags": [
                 "NODE,",
                 " EXPRESS &",
@@ -113,7 +113,7 @@
         },
         {
             "title": "NOVATOKEN ",
-            "description": "Création d'un site qui présente un projet made in France, d'une cryptomonnaie et de son exploreur et sa blockchain .",
+            "description": "Création d'un site qui présente un projet made in France, d'une cryptomonnaie et de son exploreur et sa blockchain, j'ai rencontrée un problème concernant certaines animations .",
             "tags": [
                 "JAVASCRIPT &",
                 " CSS"
@@ -123,7 +123,7 @@
         },
         {
             "title": "FLASH ENSEIGNE ",
-            "description": "Site de présentation pour une entreprise d'enseignes signalétiques, leurs services, leurs realisation, leurs contact et la présentation de l'équipe .",
+            "description": "Site de présentation pour une entreprise d'enseignes signalétiques, leurs services, leurs realisation, leurs contact et la présentation de l'équipe.J'ai rencontrée un problème concernant certaines animations.",
             "tags": [
                 "REACT,",
                 " CSS &",
