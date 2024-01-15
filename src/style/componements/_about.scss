@@ -1,103 +1,128 @@
 .container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 100%;
+  margin-inline: 5px;
+  border-radius: 5px;
+  border: solid 4px white;
   margin-bottom: 20px;
   @media (min-width: $ms) {
     flex-direction: row;
   }
-}
 
-.propos {
-  flex: 1;
-  color: white;
-  padding: 10px;
-  margin-bottom: 10px;
-  margin: 7px;
-  border-radius: 10px;
-  @media (min-width: $ms) {
-    flex-direction: row;
+  .propos {
     flex: 1;
     color: white;
-  }
-  .proposBlock {
-    margin: 10px;
-    .nom {
-      display: flex;
-      font-size: 35px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 7px;
+    border-radius: 5px;
+    border: solid 5px;
+    @media (min-width: $ms) {
+      flex-direction: row;
+      flex: 1;
+      color: white;
+    }
+    .proposBlock {
+      margin: 10px;
+      .nom {
+        display: flex;
+        font-size: 35px;
 
-      @media (min-width: $ms) {
-        font-size: 55px;
+        @media (min-width: $ms) {
+          font-size: 55px;
+        }
+        @media (min-width: $ls) {
+          font-size: 65px;
+        }
+        @media (min-width: $bs) {
+          font-size: 75px;
+        }
       }
-      @media (min-width: $ls) {
-        font-size: 65px;
+
+      h2 {
+        font-size: 25px;
+        margin-top: 15px;
+        @media (min-width: $ms) {
+          font-size: 20px;
+        }
+        @media (min-width: $ls) {
+          font-size: 30px;
+        }
+        @media (min-width: $bs) {
+          font-size: 38px;
+        }
+      }
+
+      p {
+        font-size: 10px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        @media (min-width: $ms) {
+          font-size: 15px;
+          margin-bottom: 30px;
+        }
+        @media (min-width: $ls) {
+          font-size: 20px;
+        }
+        @media (min-width: $bs) {
+          font-size: 25px;
+        }
       }
     }
-
-    h2 {
-      font-size: 25px;
-      margin-top: 15px;
-      @media (min-width: $ms) {
-        font-size: 20px;
-      }
-      @media (min-width: $ls) {
-        font-size: 30px;
-      }
-    }
-
-    p {
-      font-size: 10px;
-      margin-top: 15px;
-      margin-bottom: 25px;
-      @media (min-width: $ms) {
-        font-size: 15px;
-        margin-bottom: 30px;
-      }
-      @media (min-width: $ls) {
-        font-size: 20px;
-      }
-    }
-
     .button {
       display: flex;
-    
+
       .contact {
-        background-color: black;
-        color: white;
-        gap: 10px;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 100px;
-        height: 30px;
+        color: white;
+        font-weight: bold;
         border-radius: 5px;
+        border: 0.5px solid rgb(255, 255, 255);
+        backdrop-filter: blur(10px);
+        width: 100px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.3);
         &:hover {
-          background-color: white;
+          background-color: black;
           border: solid white;
-         color: black;
+          color: white;
         }
         @media (min-width: $ms) {
-          font-size: 16px;
-          width: 125px;
+          font-size: 14px;
+          width: 155px;
           height: 40px;
         }
         @media (min-width: $ls) {
           width: 180px;
           height: 60px;
-          font-size: 25px;
+          font-size: 22px;
+        }
+        @media (min-width: $bs) {
+          width: 250px;
+          margin-top: 55px;
         }
       }
 
       .git {
-        border-radius: 5px;
-        background-color: white;
-       border-color: black;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        gap: 10px;
+        border-radius: 5px;
+        border: 0.5px solid rgb(255, 255, 255);
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.3);
         width: 100px;
-        height: 30px;
-
+        height: 40px;
         &:hover {
           background-color: black;
           border: solid white;
@@ -105,14 +130,18 @@
         }
 
         @media (min-width: $ms) {
-          font-size: 16px;
-          width: 125px;
+          font-size: 14px;
+          width: 155px;
           height: 40px;
         }
         @media (min-width: $ls) {
           width: 180px;
           height: 60px;
-          font-size: 25px;
+          font-size: 23px;
+        }
+        @media (min-width: $bs) {
+          width: 250px;
+          margin-top: 55px;
         }
       }
 
@@ -128,22 +157,22 @@
   flex: 1;
   color: black;
   display: none;
+  border: none;
   @media (min-width: $ms) {
     display: flex;
     width: 350px;
     height: 400px;
     margin: 7px;
-    border: solid 5px white rgba(180, 180, 180);
+    //border: solid 5px white rgba(180, 180, 180);
   }
 
   .PhotoMoi {
     display: none;
     @media (min-width: $ms) {
       display: flex;
-      border-radius: 10px;
       width: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      border: solid 5px white rgba(180, 180, 180);
     }
-   
   }
 }

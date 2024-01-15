@@ -32,8 +32,8 @@ const About = () => {
             src="../assets/images/moi.jpeg"
             alt="moi de près "
           />    
-        </section> 
-    
+     
+       </section> 
       </div>
    
   );

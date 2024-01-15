@@ -16,7 +16,7 @@ const Projects = () => {
 
   return (  
     <div>    
-  <h2 className="title">MES PROJETS :</h2>
+  <h2 className="title">MES PROJETS</h2>
     <section id="projects" className="blockProjects">
 
       {data.projects.map((project, i) => (

@@ -3,19 +3,58 @@
         "description":"Passionnée par le développement web, je me spécialise dans le front-end et le design web. Mon objectif est de créer des expériences en ligne exceptionnelles centrées sur l'expérience utilisateur, en mettant l'accent sur l'accessibilité.Chaque ligne de code que j'écris vise à créer des interfaces interactives et esthétiquement plaisantes, avec un engagement envers l'accessibilité. Mon objectif est de fusionner créativité et fonctionnalité pour proposer des solutions web innovantes." 
     },
     "skills": [
-        "tailwind.png",
-        "figma.png",
-        "canva.png",
-        "html.png",
-        "sass.png",
-        "git.png",
-        "bash.png",
-        "react.png",
-        "js.png",
-        "express.png",
-        "css.png",
-        "node.png",
-        "mongo.png"
+        { 
+            "file": "tailwind.png",
+            "name": "TailWind"
+        },
+        { 
+            "file": "figma.png",
+            "name": "Figma"
+        },
+        { 
+            "file": "canva.png",
+            "name": "Canva"
+        },
+        { 
+            "file": "html.png",
+            "name": "HTML"
+        },
+        { 
+            "file": "sass.png",
+            "name": "Sass"
+        },
+        { 
+            "file": "git.png",
+            "name": "GitHub"
+        },
+        { 
+            "file": "bash.png",
+            "name": "Git Bash"
+        },
+        { 
+            "file": "react.png",
+            "name": "React.js"
+        },
+        { 
+            "file": "js.png",
+            "name": "Javascript"
+        },
+        { 
+            "file": "express.png",
+            "name": "Express.js"
+        },
+        { 
+            "file": "css.png",
+            "name": "CSS"
+        },
+        { 
+            "file": "node.png",
+            "name": "Node.js"
+        },
+        { 
+            "file": "mongo.png",
+            "name": "MongoDB"
+        }
     ],
     "projects": [
         {

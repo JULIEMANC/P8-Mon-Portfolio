@@ -42,8 +42,8 @@ const Skills = () => {
        
          <div className="map"> 
          {data.skills.map((skills, i) => (
-      <div key={i} className="logoContainer" data-tooltip={`Logo de ${skills}`}>
-      <img className="logoSkills" src={`../assets/logo/${skills}`} alt={`imgData-${i}`} />
+      <div key={i} className="logoContainer" data-tooltip={`${skills.name}`}>
+      <img className="logoSkills" src={`../assets/logo/${skills.file}`} alt={`imgData-${i}`} />
       </div>
 
       ))}
