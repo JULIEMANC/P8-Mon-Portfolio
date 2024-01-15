@@ -26,7 +26,6 @@ const Projects = () => {
             to={`#projects`}
             onClick={() => openModal(project)}
             >
-           
             <img
               className="imProjects"
               src={`../assets/images/${project.pictures[0]}`}
