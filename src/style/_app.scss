@@ -18,7 +18,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
 }
 section {
-  border: 2px solid #ddd;
+  border: 3px solid #ddd;
 }

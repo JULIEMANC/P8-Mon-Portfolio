@@ -36,10 +36,12 @@ const Skills = () => {
           <button className="back">Back-end</button>
         </section>
       </div>
-      <section className="banner1">
-        <div className="rec"></div>
-        <p className="work">J'ai pu travailler avec : </p>
-       
+
+      
+      <section className="banner1">  
+      <div className="rec">
+        <p className="work">J'AI TRAVAILLÉ AVEC : </p>
+       </div>
          <div className="map"> 
          {data.skills.map((skills, i) => (
       <div key={i} className="logoContainer" data-tooltip={`${skills.name}`}>

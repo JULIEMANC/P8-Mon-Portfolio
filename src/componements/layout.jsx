@@ -36,8 +36,7 @@ const Layout = ({ children }) => {
       <main>
         <About />
         <Competences />
-        <Projects />
-
+        <Projects/>
         {children}
       </main>
 

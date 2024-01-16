@@ -1,7 +1,7 @@
 .propos2 {
   position: relative;
   background-color: rgba(0, 0, 0, 0.3);
- margin: 5px;
+  margin: 5px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.75);
+  border: 3px solid rgba(255, 255, 255, 0.75);
   background: linear-gradient(
     128deg,
     rgba(255, 255, 255, 0.3) 5.95%,
@@ -65,13 +65,11 @@
   margin-bottom: 10px;
   position: relative;
   color: white;
-//padding: 10px;
+  padding: 10px;
   @media (min-width: $ms) {
-    //margin: 7px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    //width: 750px;
   }
   .frontend,
   .backend {
@@ -86,7 +84,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    color:white;
+    color: white;
     font-weight: bold;
     border-radius: 5px;
     border: 0.5px solid rgb(255, 255, 255);
@@ -101,7 +99,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    color:white;
+    color: white;
     font-weight: bold;
     border-radius: 5px;
     border: 0.5px solid rgb(255, 255, 255);
@@ -120,13 +118,13 @@
   }
   .circles {
     width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.75);
-    background: linear-gradient(
-      128deg,
-      rgba(255, 255, 255, 0.5) 5.95%,
-      rgba(255, 255, 255, 0.02) 100%
-    );
-
+    border: 3px solid rgba(255, 255, 255, 0.75);
+    // background: linear-gradient(
+    //   128deg,
+    //   rgba(255, 255, 255, 0.5) 5.95%,
+    //   rgba(255, 255, 255, 0.02) 100%
+    // );
+   background-color: rgba(255, 255, 255, 0.217);
     backdrop-filter: blur(2px);
     &::before {
       content: "";
@@ -137,14 +135,10 @@
       left: 0;
       z-index: -1;
     }
-    &:hover {
-      background-color:rgba(255, 255, 255, 0.217);
-      color: white;
-    }
   }
 }
 .banner1 {
-  //width: 98%;
+  width: 98%;
   height: auto;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -162,18 +156,18 @@
   flex-direction: column;
   gap: 10px;
 
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: inherit;
-    border-radius: inherit;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    z-index: -1;
-  }
+  // &:before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   background: inherit;
+  //   border-radius: inherit;
+  //   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  //   z-index: -1;
+  // }
   @media (min-width: $ms) {
     width: 99%;
     height: 300px;
@@ -186,16 +180,30 @@
   @media (min-width: $bs) {
     height: 200px;
   }
+  .rec {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 5px;
+    background: linear-gradient(
+      128deg,
+      rgba(0, 0, 0, 0.074) 5.95%,
+      rgba(255, 255, 255, 0.08) 91.5%
+    );
+    backdrop-filter: blur(3.5px);
+  }
   .work {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
     color: #fff;
-    text-decoration: underline;
     @media (min-width: $ms) {
-      font-size: 20px;
+      font-size: 30px;
     }
     @media (min-width: $ls) {
-      font-size: 25px;
+      font-size: 40px;
     }
   }
   .map {
@@ -237,7 +245,7 @@
           transform: translateX(-50%);
           background-color: #333;
           color: #fff;
-          border-radius: 6px;
+          border-radius: 5px;
           font-size: 8px;
           padding: 5px;
           visibility: visible;

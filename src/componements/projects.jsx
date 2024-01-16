@@ -15,7 +15,7 @@ const Projects = () => {
   };
 
   return (  
-    <div>    
+    <div>
   <h2 className="title">MES PROJETS</h2>
     <section id="projects" className="blockProjects">
 
@@ -32,7 +32,7 @@ const Projects = () => {
               key={i}
               alt="imgData"
             />
-            <h2>{project.title}</h2>
+            <h3>{project.title}</h3>
             <div className="tags">{project.tags}</div>
           </HashLink>
         </article>
