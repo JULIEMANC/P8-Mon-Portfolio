@@ -1,57 +1,57 @@
 {
     "about": {
-        "description":"Passionnée par le développement web, je me spécialise dans le front-end et le design web. Mon objectif est de créer des expériences en ligne exceptionnelles centrées sur l'expérience utilisateur, en mettant l'accent sur l'accessibilité.Chaque ligne de code que j'écris vise à créer des interfaces interactives et esthétiquement plaisantes, avec un engagement envers l'accessibilité. Mon objectif est de fusionner créativité et fonctionnalité pour proposer des solutions web innovantes." 
+        "description": "Passionnée par le développement web, je me spécialise dans le front-end et le design web. Mon objectif est de créer des expériences en ligne exceptionnelles centrées sur l'expérience utilisateur, en mettant l'accent sur l'accessibilité.Chaque ligne de code que j'écris vise à créer des interfaces interactives et esthétiquement plaisantes, avec un engagement envers l'accessibilité. Mon objectif est de fusionner créativité et fonctionnalité pour proposer des solutions web innovantes."
     },
     "skills": [
-        { 
+        {
             "file": "tailwind.png",
             "name": "TailWind"
         },
-        { 
+        {
             "file": "figma.png",
             "name": "Figma"
         },
-        { 
+        {
             "file": "canva.png",
             "name": "Canva"
         },
-        { 
+        {
             "file": "html.png",
             "name": "HTML"
         },
-        { 
+        {
             "file": "sass.png",
             "name": "Sass"
         },
-        { 
+        {
             "file": "git.png",
             "name": "GitHub"
         },
-        { 
+        {
             "file": "bash.png",
             "name": "Git Bash"
         },
-        { 
+        {
             "file": "react.png",
             "name": "React.js"
         },
-        { 
+        {
             "file": "js.png",
             "name": "Javascript"
         },
-        { 
+        {
             "file": "express.png",
             "name": "Express.js"
         },
-        { 
+        {
             "file": "css.png",
             "name": "CSS"
         },
-        { 
+        {
             "file": "node.png",
             "name": "Node.js"
         },
-        { 
+        {
             "file": "mongo.png",
             "name": "MongoDB"
         }
@@ -65,9 +65,13 @@
                 " CSS"
             ],
             "pictures": [
-            "voyage.png"
-            ], 
-            "picturesModale":["booki.webp","booki2.webp"]
+                "voyage.png"
+            ],
+            "picturesModale": [
+                "booki.webp",
+                "booki2.webp"
+            ],
+            "link": "https://github.com/JULIEMANC/booki-starter-code-1"
         },
         {
             "title": "PORTFOLIO ARCHITECT D'INTERIEUR",
@@ -76,18 +80,34 @@
                 "JAVASCRIPT &",
                 " CSS"
             ],
-            "pictures": ["archit.png"],
-            "picturesModale":["archi.webp","archi2.webp", "archi3.webp", "archi4.png"]
+            "pictures": [
+                "archit.png"
+            ],
+            "picturesModale": [
+                "archi.webp",
+                "archi2.webp",
+                "archi3.webp",
+                "archi4.png"
+            ],
+            "link": "https://github.com/JULIEMANC/Portfolio-architecte-sophie-bluel"
         },
         {
             "title": "SITE D'UNE PHOTOGRAPHE",
             "description": "En tant que développeuse freelance, j'ai proposer mes services d'optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe.J'ai eu des difficultées à trouver 3 erreurs en Jquery.",
             "tags": [
                 "HTML ,",
-                " CSS ","& JAVASCRIPT"
+                " CSS ",
+                "& JAVASCRIPT"
             ],
-            "pictures": ["photographe.png"],
-            "picturesModale":["photo.webp","photographe2.webp", "photographe3.webp"]
+            "pictures": [
+                "photographe.png"
+            ],
+            "picturesModale": [
+                "photo.webp",
+                "photographe2.webp",
+                "photographe3.webp"
+            ],
+            "link":"https://github.com/JULIEMANC/nina-carducci.github.io"
         },
         {
             "title": "LOCATION IMMOBILIÈRE ",
@@ -97,8 +117,16 @@
                 " CSS &",
                 " REACT"
             ],
-            "pictures": ["immob.png"],
-            "picturesModale":["immo.webp","immo2.webp", "immo3.webp", "immo4.webp"]
+            "pictures": [
+                "immob.png"
+            ],
+            "picturesModale": [
+                "immo.webp",
+                "immo2.webp",
+                "immo3.webp",
+                "immo4.webp"
+            ],
+            "link":"https://github.com/JULIEMANC/P6-KASA-react-immobilier"
         },
         {
             "title": "MON VIEUX GRIMOIRE",
@@ -108,18 +136,32 @@
                 " EXPRESS &",
                 " MONGO DB"
             ],
-            "pictures": ["vieuxG.png"],
-            "picturesModale":["vieux.webp","vieux2.webp", "vieux3.webp", "vieux4.webp"]
+            "pictures": [
+                "vieuxG.png"
+            ],
+            "picturesModale": [
+                "vieux.webp",
+                "vieux2.webp",
+                "vieux3.webp",
+                "vieux4.webp"
+            ],
+            "link":"https://github.com/JULIEMANC/P7-Dev-Web-livres"
         },
         {
             "title": "NOVATOKEN ",
-            "description": "Création d'un site qui présente un projet made in France, d'une cryptomonnaie et de son exploreur et sa blockchain, j'ai rencontrée un problème concernant certaines animations .",
+            "description": "Création d'un site qui présente un projet made in France, d'une cryptomonnaie et de son exploreur et sa blockchain, j'ai rencontrée un problème concernant certaines animations ainsi que la pop-up.",
             "tags": [
                 "JAVASCRIPT &",
                 " CSS"
             ],
-            "pictures": ["novaT.png"],
-            "picturesModale":["nvt.webp","nvt2.webp","nvt3.webp"]
+            "pictures": [
+                "novaT.png"
+            ],
+            "picturesModale": [
+                "nvt.webp",
+                "nvt2.webp",
+                "nvt3.webp"
+            ]
         },
         {
             "title": "FLASH ENSEIGNE ",
@@ -129,8 +171,14 @@
                 " CSS &",
                 " TAILWIND"
             ],
-            "pictures": ["flashE.png"],
-           "picturesModale":["flash.webp","flash1.webp","flash2.webp"]
+            "pictures": [
+                "flashE.png"
+            ],
+            "picturesModale": [
+                "flash.webp",
+                "flash1.webp",
+                "flash2.webp"
+            ]
         }
     ]
 }

@@ -80,17 +80,18 @@
         align-items: center;
         color: white;
         font-weight: bold;
+        width: 100px;
+        height: 40px;
         border-radius: 5px;
         border: 0.5px solid rgb(255, 255, 255);
         backdrop-filter: blur(10px);
-        width: 100px;
-        height: 40px;
-        background-color: rgba(255, 255, 255, 0.3);
-        &:hover {
-          background-color: black;
-          border: solid white;
-          color: white;
-        }
+        background-color: rgba(255, 255, 255, 0.1);
+        cursor: pointer;
+        // &:hover {
+        //   background-color: black;
+        //   border: solid white;
+        //   color: white;
+        // }
         @media (min-width: $ms) {
           font-size: 14px;
           width: 155px;
@@ -116,18 +117,20 @@
         color: white;
         font-weight: bold;
         padding: 10px;
-        gap: 10px;
+        gap: 10px;      
+        width: 100px;
+        height: 40px;
         border-radius: 5px;
         border: 0.5px solid rgb(255, 255, 255);
         backdrop-filter: blur(5px);
-        background-color: rgba(255, 255, 255, 0.3);
-        width: 100px;
-        height: 40px;
-        &:hover {
-          background-color: black;
-          border: solid white;
-          color: white;
-        }
+        background-color: rgba(255, 255, 255, 0.1);
+        cursor: pointer;
+  
+        // &:hover {
+        //   background-color: black;
+        //   border: solid white;
+        //   color: white;
+        // }
 
         @media (min-width: $ms) {
           font-size: 14px;
@@ -157,23 +160,29 @@
   flex: 1;
   color: black;
   display: none;
-  border: none;
+  border: 5px solid white;
+  border-radius: 5px;
   @media (min-width: $ms) {
-    display: flex;
-   border-radius: 20px;
-    width: 350px;
-    height: 400px;
-     margin: 7px;
-    //border: solid 5px white rgba(180, 180, 180);
-  }
-
+   display: flex;
+  //   // width: 350px;
+     height: 380px;
+  margin: 7px;
+   }
+  //   @media (min-width: $mss) {
+  //  height: 340px;
+  //   }
+  //   @media (min-width: $ls) {
+  //    height:438px ;
+  //   }
+  //   @media (min-width: $bs) {
+  //    height: 405px;
+  //   }
   .PhotoMoi {
     display: none;
     @media (min-width: $ms) {
       display: flex;
       width: 100%;
       object-fit: contain;
-      border-radius: 20px;
     }
   }
 }
