@@ -5,7 +5,7 @@ const Slides = ({ pictures, currentIndex, onNext, onPrev }) => {
     <>
       <div className="aroundImage">
       <img
-        className="modal-image"
+        className="modalImage"
         src={`../assets/images/${pictures[currentIndex]}`}
         alt="ModalImg"
       />

@@ -20,8 +20,8 @@ const Modal = ({ project, onClose }) => {
   };
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+    <div className="modalOverlay" onClick={onClose}>
+      <div className="modalContent" onClick={(e) => e.stopPropagation()}>
         {project.picturesModale.length > 1 && (
          
          <Slides
@@ -32,7 +32,7 @@ const Modal = ({ project, onClose }) => {
           />
         )}
         <div className="titleDescr">{project.title}</div>
-        <div className="modal-description">{project.description}</div>
+        <div className="modalDescription">{project.description}</div>
         <div className="tags">{project.tags}</div>
         <Link to={project.link}>
         <img className="linkGit" src="../assets/logo/git.png" alt="githubPictures"/> 

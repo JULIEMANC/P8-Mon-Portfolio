@@ -1,4 +1,4 @@
-.propos2 {
+.aboutMe {
   position: relative;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 5px;
@@ -27,7 +27,7 @@
     z-index: -1;
   }
 
-  .title1 {
+  .titleAbout {
     margin-bottom: 15px;
     margin-left: 5px;
     margin-top: 10px;
@@ -36,7 +36,7 @@
     }
   }
 
-  .texte1 {
+  .textAbout{
     font-size: 13px;
     margin-left: 5px;
     margin-right: 15px;
@@ -57,15 +57,16 @@
   }
 }
 
-.button2 {
+.skillsPictures {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 10px;
   position: relative;
   color: white;
-  padding: 10px;
+  width: 100%;
   @media (min-width: $ms) {
     display: flex;
     flex-direction: row;
@@ -116,9 +117,9 @@
       height: 45px;
     }
   }
-  .circles {
+  .pictures {
     width: 100%;
-    border: 3px solid rgba(255, 255, 255, 0.75);
+    //border: 3px solid rgba(255, 255, 255, 0.75);
     // background: linear-gradient(
     //   128deg,
     //   rgba(255, 255, 255, 0.5) 5.95%,
@@ -137,11 +138,11 @@
     }
   }
 }
-.banner1 {
+.bannerSkills{
   width: 98%;
   height: auto;
   margin-bottom: 20px;
-  border-radius: 5px;
+  border-radius: 3px;
   background: linear-gradient(
     128deg,
     rgba(0, 0, 0, 0.074) 5.95%,
@@ -180,13 +181,13 @@
   @media (min-width: $bs) {
     height: 200px;
   }
-  .rec {
+  .titleSkills {
     color: #fff;
     font-size: 30px;
     display: flex;
     justify-content: center;
     padding: 10px;
-    border: 3px solid;
+    border: 1px solid;
     border-radius: 5px;
     background: linear-gradient(
       128deg,
@@ -195,7 +196,7 @@
     );
     backdrop-filter: blur(3.5px);
   }
-  .work {
+  .workWith {
     font-size: 20px;
     font-weight: bold;
     color: #fff;
@@ -206,7 +207,7 @@
       font-size: 40px;
     }
   }
-  .map {
+  .logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

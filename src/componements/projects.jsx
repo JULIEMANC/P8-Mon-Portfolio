@@ -16,7 +16,7 @@ const Projects = () => {
 
   return (  
     <div>
-  <h2 className="title">MES PROJETS</h2>
+  <h2 className="titleProject">MES PROJETS</h2>
     <section id="projects" className="blockProjects">
 
       {data.projects.map((project, i) => (
@@ -27,7 +27,7 @@ const Projects = () => {
             onClick={() => openModal(project)}
             >
             <img
-              className="imProjects"
+              className="picturesProjects"
               src={`../assets/images/${project.pictures[0]}`}
               key={i}
               alt="imgData"

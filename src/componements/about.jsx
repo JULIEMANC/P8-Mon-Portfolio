@@ -4,10 +4,10 @@ import React from "react";
 const About = () => {
   return (
     <div className="container">
-      <section className="propos" id="about">
-        <div className="proposBlock">
-          <h1 className="nom">MANCINO JULIE</h1>
-          <h2 className="metier"> DEVELOPPEUR WEB FRONT-END</h2>
+      <section className="about" id="about">
+        <div className="blockAbout">
+          <h1 className="name">MANCINO JULIE</h1>
+          <h2 className="job"> DEVELOPPEUR WEB FRONT-END</h2>
           <p>Façonnons ensemble votre vision numérique.</p>
           <div className="button">
             <a href="#contact">
@@ -26,9 +26,9 @@ const About = () => {
         </div>
       </section> 
       
-      <section className="photoMe">
+      <section className="myPhoto">
           <img
-            className="PhotoMoi"
+            className="portrait"
             src="../assets/images/moi.jpeg"
             alt="moi de près "
           />    

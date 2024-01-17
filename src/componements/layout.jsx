@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
       <header>
         <div className="banner">
           <img
-            className="logoSite"
+            className="myLogo"
             src="../assets/logo/logoSite.png"
             alt="logo du site"
           />
@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
                 <a href="#about">À propos</a>
               </li>
               <li>
-                <a href="#compétences">Compétences</a>
+                <a href="#skills">Compétences</a>
               </li>
               <li>
                 <a href="#projects">Projets</a>
@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
 
       <footer>
         <Contact />
-        <p className="footerletter">Copyright © Julie Mancino</p>
+        <p className="footerText">Copyright © Julie Mancino</p>
       </footer>
     </div>
   );

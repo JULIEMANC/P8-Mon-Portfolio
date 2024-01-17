@@ -1,4 +1,4 @@
-.title {
+.titleProject{
   color: #fff;
   font-size: 30px;
   display: flex;
@@ -35,7 +35,7 @@
     border: none;
   }
 
-  .imProjects {
+  .picturesProjects {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -80,6 +80,10 @@
       border-radius: inherit;
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
       z-index: -1;
+    }
+    &:hover {
+      transform: scale(1.035);
+      background-color: #A0A0A0;
     }
     @media (min-width: $ms) {
       flex-direction: row;
@@ -130,7 +134,7 @@
 
 // /* MODAL WORK */
 
-.modal-overlay {
+.modalOverlay {
   position: fixed;
   display: flex;
   align-items: center;
@@ -142,7 +146,7 @@
   z-index: 1;
 }
 
-.modal-content {
+.modalContent {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -155,7 +159,7 @@
   position: relative;
   padding: 20px;
   //border: solid 3px white;
-  border: 5px solid rgba(255, 255, 255, 0.9);
+  border: 3px solid rgba(255, 255, 255, 0.9);
   background: linear-gradient(
     128deg,
     rgba(255, 255, 255, 0.9) 5.95%,
@@ -165,18 +169,22 @@
 
   @media (min-width: $ms) {
     width: 500px;
-    height: 600px;
+    height: 650px;
   }
   @media (min-width: $ls) {
     width: 600px;
     height: 750px;
+  }
+  @media (min-width: $bs) {
+   width: 700px;
+   height: 800px; 
   }
   .aroundImage {
     background-color: #2d2d2d;
     padding: 20px 5px 5px 5px;
     margin: 5px;
   }
-  .modal-image {
+  .modalImage {
     width: 100%;
     height: auto;
     object-fit: fill;
@@ -189,7 +197,7 @@
       font-size: 30px;
     }
   }
-  .modal-description {
+  .modalDescription {
     font-size: 11px;
     @media (min-width: $ms) {
       font-size: 15px;
@@ -198,30 +206,30 @@
       font-size: 20px;
     }
   }
-  // .tags {
-  //   margin: 20px;
-  //   margin-left: 180px;
-  //   bottom: 5px;
-  //   transform: translateX(-50%);
-  //   white-space: nowrap;
-  //   display: flex;
-  //   justify-content: center;
-  //   color: black;
-  //   font-size: 12px;
-  //   padding: 5px;
-  //   border-radius: 5px;
-  //   border: 0.5px solid rgb(255, 255, 255);
-  //   backdrop-filter: blur(5px);
-  //   @media (min-width: $ms) {
-  //     margin-left: 300px;
-  //     font-size: 20px;
-  //   }
-  //   @media (min-width: $ls) { 
-  //     margin-left: 250px;
-  //     font-size: 20px;
-  //   }
+  .tags {
+    margin: 20px;
+    margin-left: 180px;
+    bottom: 5px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(255, 255, 255);
+    backdrop-filter: blur(5px);
+    @media (min-width: $ms) {
+      margin-left: 300px;
+      font-size: 20px;
+    }
+    @media (min-width: $ls) { 
+      margin-left: 250px;
+      font-size: 20px;
+    }
 
-  // }
+  }
   .linkGit {
     width: 30px;
     height: 30px;
