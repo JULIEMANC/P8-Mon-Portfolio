@@ -8,6 +8,7 @@
   width: 100%;
   transition: opacity 1s, transform 1s;
   margin: 5px;
+  border: solid 3px white;
   @media (min-width: $ms) {
    width: 700px;
   }

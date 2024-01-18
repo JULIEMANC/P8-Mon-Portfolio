@@ -5,55 +5,68 @@
     "skills": [
         {
             "file": "tailwind.png",
-            "name": "TailWind"
+            "name": "TailWind",
+            "link":"https://v2.tailwindcss.com/docs"
         },
         {
             "file": "figma.png",
-            "name": "Figma"
+            "name": "Figma",
+            "link":"https://help.figma.com/hc/en-us/categories/360002042553-Figma-design"
         },
         {
             "file": "canva.png",
-            "name": "Canva"
+            "name": "Canva",
+            "link":"https://www.canva.com/fr_fr/docs/"
         },
         {
             "file": "html.png",
-            "name": "HTML"
+            "name": "HTML",
+            "link":"https://developer.mozilla.org/fr/docs/Web/HTML"
         },
         {
             "file": "sass.png",
-            "name": "Sass"
+            "name": "Sass",
+            "link":"https://sass-lang.com/documentation/"
         },
         {
             "file": "git.png",
-            "name": "GitHub"
+            "name": "GitHub",
+            "link":"https://docs.github.com/fr"
         },
         {
             "file": "bash.png",
-            "name": "Git Bash"
+            "name": "Git Bash",
+            "link":"https://git-scm.com/doc"
         },
         {
             "file": "react.png",
-            "name": "React.js"
+            "name": "React.js",
+            "link":"https://fr.legacy.reactjs.org/docs/getting-started.html"
         },
         {
             "file": "js.png",
-            "name": "Javascript"
+            "name": "Javascript",
+            "link":"https://developer.mozilla.org/fr/docs/Web/JavaScript"
         },
         {
             "file": "express.png",
-            "name": "Express.js"
+            "name": "Express.js",
+            "link":"https://expressjs.com/fr/"
         },
         {
             "file": "css.png",
-            "name": "CSS"
+            "name": "CSS",
+            "link":"https://developer.mozilla.org/fr/docs/Web/CSS/Reference"
         },
         {
             "file": "node.png",
-            "name": "Node.js"
+            "name": "Node.js",
+            "link":"https://nodejs.org/docs/latest/api/"
         },
         {
             "file": "mongo.png",
-            "name": "MongoDB"
+            "name": "MongoDB",
+            "link":"https://www.mongodb.com/lp/building-with-developer-data-platforms?utm_content=rlsapostreg&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general_retarget-brand-postreg_gic-null_emea-all_ps-all_desktop_eng_lead&utm_term=&utm_medium=cpc_paid_search&utm_ad=&utm_ad_campaign_id=14412646473&adgroup=131761130532&cq_cmp=14412646473&gad_source=1&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3Jo6_HJMKxPZzCVznLrf8gdXbMg23SVdHWeVnaLydtqJ1495j7Tc3caAkk_EALw_wcB"
         }
     ],
     "projects": [
@@ -68,6 +81,7 @@
                 "voyage.png"
             ],
             "picturesModale": [
+                "booki1.webp",
                 "booki.webp",
                 "booki2.webp"
             ],
@@ -84,6 +98,7 @@
                 "archit.png"
             ],
             "picturesModale": [
+                "archi0.webp",
                 "archi.webp",
                 "archi2.webp",
                 "archi3.webp",
@@ -103,6 +118,7 @@
                 "photographe.png"
             ],
             "picturesModale": [
+                "photo0.webp",
                 "photo.webp",
                 "photographe2.webp",
                 "photographe3.webp"
@@ -121,6 +137,7 @@
                 "immob.png"
             ],
             "picturesModale": [
+                "immo0.webp",
                 "immo.webp",
                 "immo2.webp",
                 "immo3.webp",
@@ -140,6 +157,7 @@
                 "vieuxG.png"
             ],
             "picturesModale": [
+                "vieux0.webp",
                 "vieux.webp",
                 "vieux2.webp",
                 "vieux3.webp",

@@ -1,5 +1,7 @@
 import data from "../data.json";
 import fixture from "../data.json";
+import { Link } from "react-router-dom";
+
 const Skills = () => {
   return (
     <>
@@ -9,6 +11,21 @@ const Skills = () => {
           <p className="textAbout">{fixture.about.description}</p>
        </div> 
     </div>
+      <section className="bannerSkills">  
+      <div className="titleSkills">
+        <h3 className="workWith ">J'AI TRAVAILLÉ AVEC : </h3>
+       </div>
+         <div className="logos"> 
+         {data.skills.map((skills, i) => (
+           <div key={i} className="logoContainer" data-tooltip={`${skills.name}`}>
+        <Link to={skills.link}>
+      <img className="logoSkills" src={`../assets/logo/${skills.file}`} alt={`imgData-${i}`} />
+        </Link>
+      </div>
+
+      ))}
+        </div>
+      </section>
       <div className="skillsPictures">
         <section className="frontend" id="skills">
           <img
@@ -27,19 +44,7 @@ const Skills = () => {
           <button className="back">Back-end</button>
         </section>
       </div>
-      <section className="bannerSkills">  
-      <div className="titleSkills">
-        <p className="workWith ">J'AI TRAVAILLÉ AVEC : </p>
-       </div>
-         <div className="logos"> 
-         {data.skills.map((skills, i) => (
-      <div key={i} className="logoContainer" data-tooltip={`${skills.name}`}>
-      <img className="logoSkills" src={`../assets/logo/${skills.file}`} alt={`imgData-${i}`} />
-      </div>
 
-      ))}
-        </div>
-      </section>
     </>
   );
 };
