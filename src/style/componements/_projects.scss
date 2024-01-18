@@ -1,4 +1,4 @@
-.titleProject{
+.titleProject {
   color: #fff;
   font-size: 30px;
   display: flex;
@@ -83,7 +83,7 @@
     }
     &:hover {
       transform: scale(1.035);
-      background-color: #A0A0A0;
+      // background-color: #a0a0a0;
     }
     @media (min-width: $ms) {
       flex-direction: row;
@@ -154,11 +154,9 @@
   width: 300px;
   height: 500px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow-y: auto;
   position: relative;
   padding: 20px;
-  //border: solid 3px white;
   border: 3px solid rgba(255, 255, 255, 0.9);
   background: linear-gradient(
     128deg,
@@ -176,8 +174,8 @@
     height: 750px;
   }
   @media (min-width: $bs) {
-   width: 700px;
-   height: 800px; 
+    width: 700px;
+    height: 800px;
   }
   .aroundImage {
     background-color: #2d2d2d;
@@ -208,11 +206,9 @@
   }
   .tags {
     margin: 20px;
-    margin-left: 180px;
     bottom: 5px;
-    transform: translateX(-50%);
-    white-space: nowrap;
     display: flex;
+    white-space: nowrap;
     justify-content: center;
     color: black;
     font-size: 12px;
@@ -221,14 +217,11 @@
     border: 0.5px solid rgb(255, 255, 255);
     backdrop-filter: blur(5px);
     @media (min-width: $ms) {
-      margin-left: 300px;
       font-size: 20px;
     }
-    @media (min-width: $ls) { 
-      margin-left: 250px;
+    @media (min-width: $ls) {
       font-size: 20px;
     }
-
   }
   .linkGit {
     width: 30px;
@@ -255,36 +248,29 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    gap: 5px;
+    gap: 15px;
   }
-  .prev {
+  .prev, .next {
     display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    width: 35px;
-    height: 35px;
     border-radius: 50%;
-    background-color: #292929;
-    border: 2px solid white;
+    background-color: white;
     cursor: pointer;
+    transition: background-color 0.3s ease;
   }
-  .next {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border: 2px solid white;
-    background-color: #292929;
-    cursor: pointer;
+  
+  .vector {
+    width: 40px;
   }
   .prev,
   .next {
     &:hover {
-      background-color: #5d6569;
+      background-color:#C6C6C6;
+      transform: scale(1.2);
     }
   }
+
+
 }

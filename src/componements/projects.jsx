@@ -9,7 +9,6 @@ const Projects = () => {
   const openModal = (project) => {
     setSelectedProject(project);
   };
-
   const closeModal = () => {
     setSelectedProject(null);
   };
