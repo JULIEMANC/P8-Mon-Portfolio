@@ -80,6 +80,9 @@
             "pictures": [
                 "voyage.png"
             ],
+            "pictureHover":[
+"booki1.webp"
+            ],
             "picturesModale": [
                 "booki1.webp",
                 "booki.webp",
@@ -97,6 +100,9 @@
             "pictures": [
                 "archit.png"
             ],
+            "pictureHover":[
+                "archi0.webp"
+                            ],
             "picturesModale": [
                 "archi0.webp",
                 "archi.webp",
@@ -117,6 +123,9 @@
             "pictures": [
                 "photographe.png"
             ],
+            "pictureHover":[
+                "photo0.webp"
+                            ],
             "picturesModale": [
                 "photo0.webp",
                 "photo.webp",
@@ -136,7 +145,11 @@
             "pictures": [
                 "immob.png"
             ],
+            "pictureHover":[
+                "immo0.webp"
+                            ],
             "picturesModale": [
+
                 "immo0.webp",
                 "immo.webp",
                 "immo2.webp",
@@ -156,6 +169,9 @@
             "pictures": [
                 "vieuxG.png"
             ],
+            "pictureHover":[
+                "vieux0.webp"
+                            ],
             "picturesModale": [
                 "vieux0.webp",
                 "vieux.webp",
@@ -175,6 +191,9 @@
             "pictures": [
                 "novaT.png"
             ],
+            "pictureHover":[
+                "nvt0.webp"
+                            ],
             "picturesModale": [
                 "nvt.webp",
                 "nvt2.webp",
@@ -192,6 +211,9 @@
             "pictures": [
                 "flashE.png"
             ],
+    "pictureHover":[
+        "flash.webp"
+    ],
             "picturesModale": [
                 "flash.webp",
                 "flash1.webp",

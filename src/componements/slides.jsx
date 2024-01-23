@@ -11,13 +11,21 @@ const Slides = ({ pictures, currentIndex, onNext, onPrev }) => {
         />
       </div>
       <div className="buttonSlides">
-      <button className="prev" onClick={onPrev}>
-        <img alt="flèche prev" className="vector" src="/assets/logo/iconLeft.svg"/> 
-     </button>
-      <button className="next" onClick={onNext}>
-      <img alt="flèche prev" className="vector" src="/assets/logo/iconRight.svg"/> 
-      </button>
-      </div> 
+        <button className="prev" onClick={onPrev}>
+          <img
+            alt="flèche prev"
+            className="vector"
+            src="/assets/logo/iconLeft.svg"
+          />
+        </button>
+        <button className="next" onClick={onNext}>
+          <img
+            alt="flèche prev"
+            className="vector"
+            src="/assets/logo/iconRight.svg"
+          />
+        </button>
+      </div>
     </>
   );
 };

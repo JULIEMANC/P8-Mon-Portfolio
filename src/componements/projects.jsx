@@ -31,6 +31,7 @@ const Projects = () => {
               key={i}
               alt="imgData"
             />
+            <img className="pictureHover" src={`../assets/images/${project.pictureHover}`}  alt=" hover"/>
             <h3>{project.title}</h3>
             <div className="tags">{project.tags}</div>
           </HashLink>

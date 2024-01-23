@@ -12,3 +12,8 @@ Ensuite ouvrir Gitbash et faire la commande :  `npx create-react-app .`
 Maintenant vous pouvait installer les dépendance ( react-router-dom ou encore Sass).
 Et pour lancer le serveur react, faites la commande : `npm start`.
 Installer Sass dans le git bash avec la commande : `npm install sass`
+
+
+
+Email.js pour recevoir les mails du formulaire de contact.(https://www.npmjs.com/package/@emailjs/browser)
+Npm sur git et importation dans le code .

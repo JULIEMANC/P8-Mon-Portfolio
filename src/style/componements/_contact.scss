@@ -1,6 +1,7 @@
 #contact {
   display: flex;
   justify-content: center;
+
 }
 .contactSection {
   opacity: 0;
@@ -9,8 +10,9 @@
   transition: opacity 1s, transform 1s;
   margin: 5px;
   border: solid 3px white;
+  border-radius: 5px;
   @media (min-width: $ms) {
-   width: 700px;
+    width: 700px;
   }
 }
 .visible {
@@ -22,7 +24,7 @@ h2.contactFooter {
   font-size: 1.5em;
   margin-bottom: 20px;
   margin-top: 10px;
-  color:white;
+  color: white;
   margin-left: 10px;
 }
 
@@ -67,4 +69,8 @@ form {
       padding: 9px;
     }
   }
+
+.send{
+  color: white;
+}
 }

@@ -5,6 +5,7 @@ import Competences from "../componements/skills";
 import Contact from "../componements/contact";
 
 const Layout = ({ children }) => {
+
   return (
     <div className="body">
       <img src="../assets/images/background.webp" alt="" className="background"/>
@@ -42,7 +43,9 @@ const Layout = ({ children }) => {
 
       <footer>
         <Contact />
+        <div className="footerContact">
         <p className="footerText">Copyright © Julie Mancino</p>
+        </div>
       </footer>
     </div>
   );
