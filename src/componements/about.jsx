@@ -12,14 +12,14 @@ const About = () => {
           <h2 className="job"> DEVELOPPEUR WEB FRONT-END</h2>
           <h3>Façonnons ensemble votre vision numérique.</h3>
           <div className="button">
-            <a href="#contact">
+            <a href="#contact" data-lang="fr">
               <button className="contact">Contactez-moi</button>
             </a>
             <a
               className="github"
               href="https://github.com/dashboard"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer" data-lang="fr"
             >
               <button className="git">Github</button>
             </a>
@@ -29,7 +29,7 @@ const About = () => {
       <section className="myPhoto">
         <img
           className="portrait"
-          src="../assets/images/moi.jpeg"
+          src="../assets/images/moi.webp"
           alt="moi de près "
         />
       </section>

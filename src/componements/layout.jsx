@@ -19,16 +19,16 @@ const Layout = ({ children }) => {
           <nav>
             <ul>
               <li>
-                <a href="#about">À propos</a>
+                <a href="#about"data-lang="fr">À propos</a>
               </li>
               <li>
-                <a href="#skills">Compétences</a>
+                <a href="#skills" data-lang="fr">Compétences</a>
               </li>
               <li>
-                <a href="#projects">Projets</a>
+                <a href="#projects" data-lang="fr">Projets</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" data-lang="fr">Contact</a>
               </li>
             </ul>
           </nav>
@@ -43,9 +43,7 @@ const Layout = ({ children }) => {
 
       <footer>
         <Contact />
-        <div className="footerContact">
         <p className="footerText">Copyright © Julie Mancino</p>
-        </div>
       </footer>
     </div>
   );

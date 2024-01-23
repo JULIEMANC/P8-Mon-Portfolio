@@ -78,10 +78,10 @@
                 " CSS"
             ],
             "pictures": [
-                "voyage.png"
+                "voyage.webp"
             ],
             "pictureHover":[
-"booki1.webp"
+                "booki1.webp"
             ],
             "picturesModale": [
                 "booki1.webp",
@@ -92,13 +92,13 @@
         },
         {
             "title": "PORTFOLIO ARCHITECT D'INTERIEUR",
-            "description": "L'entreprise souhaite développer un site internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Je suis chargée d'intégrer l'interface du site,la petite difficultée était d'apprendre le Javascript concernant ce projet.",
+            "description": "L'entreprise souhaite développer un site internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargée d'intégrer l'interface du site, la petite difficultée était d'apprendre le Javascript concernant ce projet.",
             "tags": [
                 "JAVASCRIPT &",
                 " CSS"
             ],
             "pictures": [
-                "archit.png"
+                "archit.webp"
             ],
             "pictureHover":[
                 "archi0.webp"
@@ -114,14 +114,14 @@
         },
         {
             "title": "SITE D'UNE PHOTOGRAPHE",
-            "description": "En tant que développeuse freelance, j'ai proposer mes services d'optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe.J'ai eu des difficultées à trouver 3 erreurs en Jquery.",
+            "description": "En tant que développeuse freelance, j'ai proposer mes services d'optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe. J'ai eu des difficultées à trouver 3 erreurs en Jquery.",
             "tags": [
                 "HTML ,",
                 " CSS ",
                 "& JAVASCRIPT"
             ],
             "pictures": [
-                "photographe.png"
+                "photographe.webp"
             ],
             "pictureHover":[
                 "photo0.webp"
@@ -136,14 +136,14 @@
         },
         {
             "title": "LOCATION IMMOBILIÈRE ",
-            "description": "Kasa m'a recruté en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web de location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements en France.Dans ce projet, j'ai rencontrée des difficultées concernant l'animation des collapses  .",
+            "description": "Kasa m'a recruté en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web de location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements en France. Dans ce projet, j'ai rencontrée des difficultées concernant l'animation des collapses  .",
             "tags": [
                 "SASS,",
                 " CSS &",
                 " REACT"
             ],
             "pictures": [
-                "immob.png"
+                "immob.webp"
             ],
             "pictureHover":[
                 "immo0.webp"
@@ -160,14 +160,14 @@
         },
         {
             "title": "MON VIEUX GRIMOIRE",
-            "description": "En tant que développeur back-end j'ai réalisé la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies, j'ai rencontrée des difficultées sur le controller, de fonction de modifications d'un livre existant.",
+            "description": "En tant que développeur back-end j'ai réalisé la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies, j'ai rencontrée des difficultées sur le controller de fonction de modifications d'un livre existant.",
             "tags": [
                 "NODE,",
                 " EXPRESS &",
                 " MONGO DB"
             ],
             "pictures": [
-                "vieuxG.png"
+                "vieuxG.webp"
             ],
             "pictureHover":[
                 "vieux0.webp"
@@ -189,7 +189,7 @@
                 " CSS"
             ],
             "pictures": [
-                "novaT.png"
+                "novaT.webp"
             ],
             "pictureHover":[
                 "nvt0.webp"
@@ -202,14 +202,14 @@
         },
         {
             "title": "FLASH ENSEIGNE ",
-            "description": "Site de présentation pour une entreprise d'enseignes signalétiques, leurs services, leurs realisation, leurs contact et la présentation de l'équipe.J'ai rencontrée un problème concernant certaines animations.",
+            "description": "Site de présentation pour une entreprise d'enseignes signalétiques, leurs services, leurs realisation, leurs contact et la présentation de l'équipe. J'ai rencontrée un problème concernant certaines animations.",
             "tags": [
                 "REACT,",
                 " CSS &",
                 " TAILWIND"
             ],
             "pictures": [
-                "flashE.png"
+                "flashE.webp"
             ],
     "pictureHover":[
         "flash.webp"

@@ -24,7 +24,7 @@ const Skills = () => {
               className="logoContainer"
               data-tooltip={`${skills.name}`}
             >
-              <Link to={skills.link}>
+              <Link to={skills.link} target="_blank">
                 <img
                   className="logoSkills"
                   src={`../assets/logo/${skills.file}`}

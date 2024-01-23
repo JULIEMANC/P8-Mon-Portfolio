@@ -43,7 +43,7 @@ const Typing = ({ text, speed = 200, loop = true }) => {
   }, [currentIndex, text, speed, loop, isDeleting, displayedText]);
 
   return (
-    <div className="typing-container" style={containerStyle}>
+    <div className="typingContainer" style={containerStyle}>
       <h1 className="name">{displayedText}</h1>
     </div>
   );

@@ -1,21 +1,14 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from'./componements/layout'
-import About from './componements/about';
-import Projects from './componements/projects';
-import Skills from './componements/skills';
-import Contact from './componements/contact';
+import { BrowserRouter as Router, Routes, Route,Navigate } from 'react-router-dom';
+import Layout from'./componements/layout';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Layout />} />
+        <Route path="*" element={<Navigate to="/" replace />} /> 
          <Route path="*" element={<Layout />} />
       </Routes>
     </Router>

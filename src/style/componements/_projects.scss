@@ -43,17 +43,8 @@
       height: auto;
     }
   }
-  .pictureHover {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-  }
 
-  .card-bloc-item {
+  .cardBlocItem {
     position: relative;
     padding: 20px;
     border-radius: 5px;
@@ -84,14 +75,9 @@
       z-index: -1;
     }
     &:hover {
-      transform: scale(1.01);
-      .picturesProjects {
-        display: none;
-      }
-      .pictureHover {
-        display: block;
-      }
+      transform: scale(1.04);
     }
+
     @media (min-width: $ms) {
       display: flex;
       flex-direction: row;
@@ -159,7 +145,7 @@
   flex-direction: column;
   align-items: center;
   width: 300px;
-  height: 500px;
+  height: 550px;
   background-color: #fff;
   overflow-y: auto;
   position: relative;
@@ -182,17 +168,34 @@
   }
   @media (min-width: $bs) {
     width: 700px;
-    height: 800px;
+    height: 820px;
   }
+ 
   .aroundImage {
     background-color: #2d2d2d;
     padding: 20px 5px 5px 5px;
-    margin: 5px;
   }
   .modalImage {
-    width: 100%;
-    height: auto;
-    object-fit: fill;
+    width: 240px;
+    height: 180px;
+    object-fit: scale-down;
+  @media (min-width: $ms) {
+    width: 400px;
+    height: 250px;
+    object-fit: contain;
+  } 
+  @media (min-width: $ls) {
+    width: 510px;
+    height: 330px;
+    object-fit: contain;
+  }
+
+  @media (min-width: $bs) {
+    width: 550px;
+    height: 350px;
+    object-fit: contain;
+  }
+
   }
   .titleDescr {
     font-weight: bold;
@@ -233,7 +236,7 @@
   .linkGit {
     width: 30px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
     &:hover {
       background-color: white;
       border-radius: 50%;

@@ -19,7 +19,7 @@ const Projects = () => {
     <section id="projects" className="blockProjects">
 
       {data.projects.map((project, i) => (
-        <article className="card-bloc-item" key={i}>
+        <article className="cardBlocItem" key={i}>
           <HashLink
             className="card"
             to={`#projects`}
@@ -31,7 +31,6 @@ const Projects = () => {
               key={i}
               alt="imgData"
             />
-            <img className="pictureHover" src={`../assets/images/${project.pictureHover}`}  alt=" hover"/>
             <h3>{project.title}</h3>
             <div className="tags">{project.tags}</div>
           </HashLink>
