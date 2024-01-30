@@ -1,20 +1,19 @@
 import React, { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
   const form = useRef();
   const [isVisible, setIsVisible] = useState(false);
-  // const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // if (recaptchaValue) {
-    //         onSubmit({ name, email, message });
-    //       } else {
-    //         alert('Veuillez valider reCAPTCHA avant de soumettre le formulaire.');
-    //       }
-    //     };
+    const recaptchaValue = form.current["g-recaptcha-response"].value;
+    if (!recaptchaValue) {
+      alert("Veuillez cocher la case 'Je ne suis pas un robot'");
+      return;
+    }
 
     const templateParams = {
       to_name: e.target[0].value,
@@ -24,10 +23,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_djs0b04",
-        "template_3dr2sen",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         templateParams,
-        "FY6S8l9Kjkv3YMmBk"
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
 
       .then(
@@ -38,6 +37,7 @@ const Contact = () => {
           console.log("FAILED...", err);
         }
       );
+    form.current.reset();
   };
 
   useEffect(() => {
@@ -54,33 +54,21 @@ const Contact = () => {
     };
   }, []);
 
-  // const handleRecaptchaChange = (value) => {
-  //   setRecaptchaValue(value);
-  // };
-
   return (
     <section className={`contactSection ${isVisible ? "visible" : ""}`}>
       <h2 className="contactFooter">CONTACT</h2>
       <form onSubmit={handleSubmit} ref={form}>
-        <label>
-          Votre nom :
-          <input type="yourName" name="to_name" />
-        </label>
+        <label>Votre nom :</label>
+        <input type="yourName" name="to_name" />
+
         <br />
-        <label>
-          Votre e-mail :
-          <input type="yourEmail" name="from_email" />
-        </label>
+        <label>Votre e-mail :</label>
+        <input type="yourEmail" name="from_email" />
         <br />
-        <label>
-          Message :
-          <textarea type="yourMessage" name="message" />
-        </label>
+        <label>Message :</label>
+        <textarea type="yourMessage" name="message" />
         <br />
-        {/* <ReCAPTCHA
-          sitekey={RECAPTCHA_SITE_KEY}
-          onChange={handleRecaptchaChange}
-        /> */}
+        <ReCAPTCHA sitekey={process.env.REACT_APP_RECAPTCHA_KEY} />
         <button type="submit">Envoyer</button>
       </form>
     </section>

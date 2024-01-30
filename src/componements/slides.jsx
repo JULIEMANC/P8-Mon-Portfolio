@@ -16,8 +16,12 @@ const Slides = ({ pictures, currentIndex, onNext, onPrev }) => {
             alt="flèche prev"
             className="vector"
             src="/assets/logo/iconLeft.svg"
-          />
-        </button>
+          />  
+           </button>
+          <div className="numberPhoto">   
+          { `${currentIndex +1}/${pictures.length}`}
+          </div>
+     
         <button className="next" onClick={onNext}>
           <img
             alt="flèche prev"
