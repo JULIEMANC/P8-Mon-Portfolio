@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
   const form = useRef();
@@ -9,11 +9,11 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const recaptchaValue = form.current["g-recaptcha-response"].value;
-    if (!recaptchaValue) {
-      alert("Veuillez cocher la case 'Je ne suis pas un robot'");
-      return;
-    }
+    // const recaptchaValue = form.current["g-recaptcha-response"].value;
+    // if (!recaptchaValue) {
+    //   alert("Veuillez cocher la case 'Je ne suis pas un robot'");
+    //   return;
+    // }
 
     const templateParams = {
       to_name: e.target[0].value,
@@ -68,7 +68,7 @@ const Contact = () => {
         <label>Message :</label>
         <textarea type="yourMessage" name="message" />
         <br />
-        <ReCAPTCHA sitekey={process.env.REACT_APP_RECAPTCHA_KEY} />
+        {/* <ReCAPTCHA sitekey="6Le1cVgpAAAAAMTdM0jtke_Rilic-uk-Y5JwS1nt" /> */}
         <button type="submit">Envoyer</button>
       </form>
     </section>

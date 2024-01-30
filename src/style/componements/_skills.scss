@@ -81,7 +81,7 @@
     padding: 10px;
   }
   @media (min-width: $ls) {
-    height: 300px;
+    height: 350px;
   }
   @media (min-width: $bs) {
     height: 200px;
@@ -127,12 +127,12 @@
         object-fit: cover;
         transition: transform 0.2s ease;
         @media (min-width: $ms) {
-          width: 60px;
-          height: 60px;
+          width: 65px;
+          height: 65px;
         }
         @media (min-width: $ls) {
-          width: 80px;
-          height: 80px;
+          width: 100px;
+          height: 100px;
           margin-top: -10px;
         }
         &:hover {
