@@ -84,7 +84,7 @@
     height: 350px;
   }
   @media (min-width: $bs) {
-    height: 200px;
+    height: 220px;
   }
   .titleSkills {
     color: #fff;
@@ -124,16 +124,15 @@
       .logoSkills {
         width: 35px;
         height: 35px;
-        object-fit: cover;
+        object-fit: contain;
         transition: transform 0.2s ease;
         @media (min-width: $ms) {
           width: 65px;
           height: 65px;
         }
         @media (min-width: $ls) {
-          width: 100px;
-          height: 100px;
-          margin-top: -10px;
+          width: 70px;
+          height: 70px;
         }
         &:hover {
           transform: scale(1.4);
