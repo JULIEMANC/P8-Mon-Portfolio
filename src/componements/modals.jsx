@@ -33,11 +33,11 @@ const Modal = ({ project, onClose }) => {
         <div className="titleDescr">{project.title}</div>
         <div className="modalDescription">{project.description}</div>
         <div className="tags">{project.tags}</div>
-        <Link to={project.link}>
+        <Link to={project.link} target="_blank">
           <img
             className="linkGit"
             src="../assets/logo/git.png"
-            alt="githubPictures"
+            alt="githubPictures" 
           />
         </Link>
       </div>
